@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Data Pipeline Report — 2026-06-11 08:20</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; margin: 0; padding: 2rem; }
+        h1   { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 0.5rem; }
+        h2   { color: #79c0ff; margin-top: 2rem; }
+        table{ width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th   { background: #161b22; color: #58a6ff; padding: 10px; text-align: left; border: 1px solid #30363d; }
+        td   { padding: 8px 10px; border: 1px solid #21262d; }
+        tr:nth-child(even) { background: #161b22; }
+        .badge { background: #238636; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; }
+        .meta  { color: #8b949e; font-size: 0.9em; margin-bottom: 1rem; }
+        img    { max-width: 100%; border-radius: 8px; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>⚽ Sports Data Pipeline — Automated Report</h1>
+    <p class="meta">Generated: 2026-06-11 08:20 UTC &nbsp;|&nbsp; Sport: <strong>football</strong> &nbsp;|&nbsp; Rows: <strong>20</strong></p>
+    <span class="badge">Pipeline v1.0.0</span>
+    <h2>📊 Data Table</h2>
+    <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>position</th>
+      <th>team_name</th>
+      <th>played_games</th>
+      <th>points</th>
+      <th>won</th>
+      <th>draw</th>
+      <th>lost</th>
+      <th>goals_for</th>
+      <th>goals_against</th>
+      <th>win_rate</th>
+      <th>points_per_game</th>
+      <th>pythagorean_expectation</th>
+      <th>form_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Arsenal FC</td>
+      <td>38</td>
+      <td>85</td>
+      <td>26</td>
+      <td>7</td>
+      <td>5</td>
+      <td>71</td>
+      <td>27</td>
+      <td>0.684</td>
+      <td>2.237</td>
+      <td>0.874</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Manchester City FC</td>
+      <td>38</td>
+      <td>78</td>
+      <td>23</td>
+      <td>9</td>
+      <td>6</td>
+      <td>77</td>
+      <td>35</td>
+      <td>0.605</td>
+      <td>2.053</td>
+      <td>0.829</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Manchester United FC</td>
+      <td>38</td>
+      <td>71</td>
+      <td>20</td>
+      <td>11</td>
+      <td>7</td>
+      <td>69</td>
+      <td>50</td>
+      <td>0.526</td>
+      <td>1.868</td>
+      <td>0.656</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Aston Villa FC</td>
+      <td>38</td>
+      <td>65</td>
+      <td>19</td>
+      <td>8</td>
+      <td>11</td>
+      <td>56</td>
+      <td>49</td>
+      <td>0.500</td>
+      <td>1.711</td>
+      <td>0.566</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Liverpool FC</td>
+      <td>38</td>
+      <td>60</td>
+      <td>17</td>
+      <td>9</td>
+      <td>12</td>
+      <td>63</td>
+      <td>53</td>
+      <td>0.447</td>
+      <td>1.579</td>
+      <td>0.586</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>AFC Bournemouth</td>
+      <td>38</td>
+      <td>57</td>
+      <td>13</td>
+      <td>18</td>
+      <td>7</td>
+      <td>58</td>
+      <td>54</td>
+      <td>0.342</td>
+      <td>1.500</td>
+      <td>0.536</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Sunderland AFC</td>
+      <td>38</td>
+      <td>54</td>
+      <td>14</td>
+      <td>12</td>
+      <td>12</td>
+      <td>42</td>
+      <td>48</td>
+      <td>0.368</td>
+      <td>1.421</td>
+      <td>0.434</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Brighton &amp; Hove Albion FC</td>
+      <td>38</td>
+      <td>53</td>
+      <td>14</td>
+      <td>11</td>
+      <td>13</td>
+      <td>52</td>
+      <td>46</td>
+      <td>0.368</td>
+      <td>1.395</td>
+      <td>0.561</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Brentford FC</td>
+      <td>38</td>
+      <td>53</td>
+      <td>14</td>
+      <td>11</td>
+      <td>13</td>
+      <td>55</td>
+      <td>52</td>
+      <td>0.368</td>
+      <td>1.395</td>
+      <td>0.528</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Chelsea FC</td>
+      <td>38</td>
+      <td>52</td>
+      <td>14</td>
+      <td>10</td>
+      <td>14</td>
+      <td>58</td>
+      <td>52</td>
+      <td>0.368</td>
+      <td>1.368</td>
+      <td>0.554</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Fulham FC</td>
+      <td>38</td>
+      <td>52</td>
+      <td>15</td>
+      <td>7</td>
+      <td>16</td>
+      <td>47</td>
+      <td>51</td>
+      <td>0.395</td>
+      <td>1.368</td>
+      <td>0.459</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Newcastle United FC</td>
+      <td>38</td>
+      <td>49</td>
+      <td>14</td>
+      <td>7</td>
+      <td>17</td>
+      <td>53</td>
+      <td>55</td>
+      <td>0.368</td>
+      <td>1.289</td>
+      <td>0.481</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Everton FC</td>
+      <td>38</td>
+      <td>49</td>
+      <td>13</td>
+      <td>10</td>
+      <td>15</td>
+      <td>47</td>
+      <td>50</td>
+      <td>0.342</td>
+      <td>1.289</td>
+      <td>0.469</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Leeds United FC</td>
+      <td>38</td>
+      <td>47</td>
+      <td>11</td>
+      <td>14</td>
+      <td>13</td>
+      <td>49</td>
+      <td>56</td>
+      <td>0.289</td>
+      <td>1.237</td>
+      <td>0.434</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Crystal Palace FC</td>
+      <td>38</td>
+      <td>45</td>
+      <td>11</td>
+      <td>12</td>
+      <td>15</td>
+      <td>41</td>
+      <td>51</td>
+      <td>0.289</td>
+      <td>1.184</td>
+      <td>0.393</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Nottingham Forest FC</td>
+      <td>38</td>
+      <td>44</td>
+      <td>11</td>
+      <td>11</td>
+      <td>16</td>
+      <td>48</td>
+      <td>51</td>
+      <td>0.289</td>
+      <td>1.158</td>
+      <td>0.470</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Tottenham Hotspur FC</td>
+      <td>38</td>
+      <td>41</td>
+      <td>10</td>
+      <td>11</td>
+      <td>17</td>
+      <td>48</td>
+      <td>57</td>
+      <td>0.263</td>
+      <td>1.079</td>
+      <td>0.415</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>West Ham United FC</td>
+      <td>38</td>
+      <td>39</td>
+      <td>10</td>
+      <td>9</td>
+      <td>19</td>
+      <td>46</td>
+      <td>65</td>
+      <td>0.263</td>
+      <td>1.026</td>
+      <td>0.334</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Burnley FC</td>
+      <td>38</td>
+      <td>22</td>
+      <td>4</td>
+      <td>10</td>
+      <td>24</td>
+      <td>38</td>
+      <td>75</td>
+      <td>0.105</td>
+      <td>0.579</td>
+      <td>0.204</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Wolverhampton Wanderers FC</td>
+      <td>38</td>
+      <td>20</td>
+      <td>3</td>
+      <td>11</td>
+      <td>24</td>
+      <td>27</td>
+      <td>68</td>
+      <td>0.079</td>
+      <td>0.526</td>
+      <td>0.136</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>📈 Visualisations</h2>
+    
+    <img src="chart_points_table.png" alt="Pipeline Chart">
+    
+    <img src="chart_attack_defence.png" alt="Pipeline Chart">
+    
+    <img src="chart_pythagorean.png" alt="Pipeline Chart">
+    
+    <h2>🔧 Pipeline Health</h2>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        
+        <tr><td>Total Teams</td><td>20</td></tr>
+        
+        <tr><td>Total Columns</td><td>29</td></tr>
+        
+        <tr><td>Null Values</td><td>69</td></tr>
+        
+        <tr><td>Run Timestamp (UTC)</td><td>2026-06-11T08:20:29.531953</td></tr>
+        
+        <tr><td>ML Features Ready</td><td>False</td></tr>
+        
+        <tr><td>NN Embeddings Ready</td><td>False</td></tr>
+        
+    </table>
+</body>
+</html>

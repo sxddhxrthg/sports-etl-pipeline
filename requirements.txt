@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────────────────────
+# Core Data & HTTP
+# ──────────────────────────────────────────────────────────────
+requests==2.31.0
+requests-cache==1.1.1          # Response caching to avoid redundant API hits
+pandas==2.2.2
+numpy==1.26.4
+# ──────────────────────────────────────────────────────────────
+# Data Quality & Validation
+# ──────────────────────────────────────────────────────────────
+great-expectations==0.18.12    # Schema & data quality assertions
+pandera==0.18.3                # DataFrame schema validation
+# ──────────────────────────────────────────────────────────────
+# Storage
+# ──────────────────────────────────────────────────────────────
+pyarrow==16.0.0                # Parquet file I/O (columnar, compressed)
+openpyxl==3.1.2                # Excel export support
+# ──────────────────────────────────────────────────────────────
+# Reporting & Visualization (CI-safe)
+# ──────────────────────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+jinja2==3.1.4                  # HTML report templating
+# ──────────────────────────────────────────────────────────────
+# Utilities
+# ──────────────────────────────────────────────────────────────
+python-dotenv==1.0.1           # .env file support for local dev
+tenacity==8.3.0                # Retry logic with exponential backoff
+pydantic==2.7.1                # Config & data model validation
+rich==13.7.1                   # Beautiful terminal output
+# ──────────────────────────────────────────────────────────────
+# [FUTURE] Machine Learning — Layer 1: Classical ML
+# Uncomment to activate ML prediction module
+# ──────────────────────────────────────────────────────────────
+# scikit-learn==1.5.0
+# xgboost==2.0.3
+# lightgbm==4.3.0
+# joblib==1.4.2
+# ──────────────────────────────────────────────────────────────
+# [FUTURE] Machine Learning — Layer 2: Deep Learning / NN
+# Uncomment to activate neural network module
+# ──────────────────────────────────────────────────────────────
+# torch==2.3.0
+# torchvision==0.18.0
+# tqdm==4.66.4
+# ──────────────────────────────────────────────────────────────
+# [FUTURE] Observability & Alerting
+# ──────────────────────────────────────────────────────────────
+# prometheus-client==0.20.0
+# slack-sdk==3.27.0
