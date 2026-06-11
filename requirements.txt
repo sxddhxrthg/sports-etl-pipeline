@@ -1,33 +1,69 @@
 # ──────────────────────────────────────────────────────────────
 # Core Data & HTTP
 # ──────────────────────────────────────────────────────────────
-requests==2.31.0
-requests-cache==1.1.1          # Response caching to avoid redundant API hits
-pandas==2.2.2
-numpy==1.26.4
+requests==2.34.2
+requests-cache==1.3.2          # Response caching to avoid redundant API hits
+pandas==3.0.3
+numpy==2.4.6
+
 # ──────────────────────────────────────────────────────────────
 # Data Quality & Validation
 # ──────────────────────────────────────────────────────────────
-great-expectations==0.18.12    # Schema & data quality assertions
-pandera==0.18.3                # DataFrame schema validation
-# ──────────────────────────────────────────────────────────────
-# Storage
-# ──────────────────────────────────────────────────────────────
-pyarrow==16.0.0                # Parquet file I/O (columnar, compressed)
-openpyxl==3.1.2                # Excel export support
+pandera==0.31.1                # DataFrame schema validation (pandera.pandas API)
+
 # ──────────────────────────────────────────────────────────────
 # Reporting & Visualization (CI-safe)
 # ──────────────────────────────────────────────────────────────
-matplotlib==3.8.4
-seaborn==0.13.2
-jinja2==3.1.4                  # HTML report templating
+matplotlib==3.10.9
+jinja2==3.1.6                  # HTML report templating
+
 # ──────────────────────────────────────────────────────────────
 # Utilities
 # ──────────────────────────────────────────────────────────────
-python-dotenv==1.0.1           # .env file support for local dev
-tenacity==8.3.0                # Retry logic with exponential backoff
-pydantic==2.7.1                # Config & data model validation
-rich==13.7.1                   # Beautiful terminal output
+python-dotenv==1.2.2           # .env file support for local dev
+tenacity==9.1.4                # Retry logic with exponential backoff
+pydantic==2.13.4               # Config & data model validation
+rich==15.0.0                   # Beautiful terminal output
+setuptools==82.0.1
+
+# ──────────────────────────────────────────────────────────────
+# Transitive dependencies (pinned for reproducible CI builds)
+# ──────────────────────────────────────────────────────────────
+annotated-types==0.7.0
+attrs==26.1.0
+cattrs==26.1.0
+certifi==2026.5.20
+charset-normalizer==3.4.7
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+idna==3.18
+kiwisolver==1.5.0
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+mypy_extensions==1.1.0
+packaging==26.2
+pillow==12.2.0
+platformdirs==4.10.0
+pydantic_core==2.46.4
+Pygments==2.20.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+six==1.17.0
+typeguard==4.5.2
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+url-normalize==3.0.0
+urllib3==2.7.0
+
+# ──────────────────────────────────────────────────────────────
+# [FUTURE] Storage — enable when pyarrow build is fixed in CI
+# ──────────────────────────────────────────────────────────────
+# pyarrow==16.0.0              # Parquet file I/O (columnar, compressed)
+# openpyxl==3.1.2              # Excel export support
+
 # ──────────────────────────────────────────────────────────────
 # [FUTURE] Machine Learning — Layer 1: Classical ML
 # Uncomment to activate ML prediction module
@@ -36,6 +72,7 @@ rich==13.7.1                   # Beautiful terminal output
 # xgboost==2.0.3
 # lightgbm==4.3.0
 # joblib==1.4.2
+
 # ──────────────────────────────────────────────────────────────
 # [FUTURE] Machine Learning — Layer 2: Deep Learning / NN
 # Uncomment to activate neural network module
@@ -43,6 +80,7 @@ rich==13.7.1                   # Beautiful terminal output
 # torch==2.3.0
 # torchvision==0.18.0
 # tqdm==4.66.4
+
 # ──────────────────────────────────────────────────────────────
 # [FUTURE] Observability & Alerting
 # ──────────────────────────────────────────────────────────────
