@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-06-11T08:19:57.848635+00:00",
-  "elapsed": 2.808316,
+  "created_at": "2026-06-12T02:49:30.455715+00:00",
+  "elapsed": 0.611953,
   "encoding": "UTF-8",
-  "expires": "2026-06-11T09:19:57.848589+00:00",
+  "expires": "2026-06-12T03:49:30.455684+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Thu, 11 Jun 2026 08:19:57 GMT",
+    "Date": "Fri, 12 Jun 2026 02:49:30 GMT",
     "Server": "nginx/1.14.2",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -22,7 +22,7 @@
   "request": {
     "headers": {
       "Accept": "*/*",
-      "Accept-Encoding": "gzip, deflate, zstd",
+      "Accept-Encoding": "gzip, deflate",
       "Connection": "keep-alive",
       "User-Agent": "sports-data-pipeline/1.0",
       "X-Auth-Token": "REDACTED"
