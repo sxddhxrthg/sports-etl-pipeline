@@ -100,3 +100,25 @@
 2026-06-13 02:41:55 | INFO     | main | ============================================================
 2026-06-13 02:41:55 | INFO     | main |   PIPELINE COMPLETED SUCCESSFULLY
 2026-06-13 02:41:55 | INFO     | main | ============================================================
+2026-06-14 02:53:21 | INFO     | main | ============================================================
+2026-06-14 02:53:21 | INFO     | main |   SPORTS DATA PIPELINE — STARTING RUN
+2026-06-14 02:53:21 | INFO     | main | ============================================================
+2026-06-14 02:53:21 | INFO     | main | Configuration loaded: sport=football
+2026-06-14 02:53:21 | INFO     | pipeline.fetcher | Fetching football data: competition=PL
+2026-06-14 02:53:24 | INFO     | pipeline.fetcher | Raw snapshot saved to data/raw/football_raw_2026-06-14.json
+2026-06-14 02:53:24 | INFO     | main | Raw data fetched: 25 rows
+2026-06-14 02:53:24 | INFO     | pipeline.processor | Processing football data
+2026-06-14 02:53:24 | INFO     | pipeline.processor | Duplicates removed: 25 → 20 rows
+2026-06-14 02:53:24 | INFO     | pipeline.processor | Schema validation passed
+2026-06-14 02:53:24 | INFO     | pipeline.processor | Engineered 27 features
+2026-06-14 02:53:24 | INFO     | main | Data processed: 20 rows, 29 features
+2026-06-14 02:53:24 | INFO     | pipeline.storage | CSV (latest) saved: data/processed/football_data_latest.csv
+2026-06-14 02:53:24 | INFO     | pipeline.storage | CSV (archive) saved: data/processed/football_data_2026-06-14.csv
+2026-06-14 02:53:24 | WARNING  | pipeline.storage | Parquet engine (pyarrow/fastparquet) not installed — skipping Parquet output. Install pyarrow to enable: pip install pyarrow
+2026-06-14 02:53:24 | INFO     | pipeline.reporter | Chart saved: reports/chart_points_table.png
+2026-06-14 02:53:24 | INFO     | pipeline.reporter | Chart saved: reports/chart_attack_defence.png
+2026-06-14 02:53:24 | INFO     | pipeline.reporter | Chart saved: reports/chart_pythagorean.png
+2026-06-14 02:53:24 | INFO     | pipeline.reporter | HTML report saved: reports/pipeline_report.html
+2026-06-14 02:53:24 | INFO     | main | ============================================================
+2026-06-14 02:53:24 | INFO     | main |   PIPELINE COMPLETED SUCCESSFULLY
+2026-06-14 02:53:24 | INFO     | main | ============================================================
