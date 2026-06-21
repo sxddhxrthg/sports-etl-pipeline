@@ -277,3 +277,48 @@ KeyError: 'team_name'
 2026-06-20 02:40:49 | INFO     | main | ============================================================
 2026-06-20 02:40:49 | INFO     | main |   PIPELINE COMPLETED SUCCESSFULLY
 2026-06-20 02:40:49 | INFO     | main | ============================================================
+2026-06-21 02:56:53 | INFO     | main | ============================================================
+2026-06-21 02:56:53 | INFO     | main |   SPORTS DATA PIPELINE — STARTING RUN
+2026-06-21 02:56:53 | INFO     | main | ============================================================
+2026-06-21 02:56:53 | INFO     | main | Configuration loaded: sport=football
+2026-06-21 02:56:53 | INFO     | pipeline.fetcher | Fetching football data: competition=PL
+2026-06-21 02:56:53 | CRITICAL | pipeline.fetcher | Unexpected fetcher error: 'team_name'
+Traceback (most recent call last):
+  File "/home/runner/work/football-etl-pipeline/football-etl-pipeline/pipeline/fetcher.py", line 69, in fetch_all
+    return handler()
+           ^^^^^^^^^
+  File "/home/runner/work/football-etl-pipeline/football-etl-pipeline/pipeline/fetcher.py", line 99, in _fetch_football
+    df = standings_df.merge(
+         ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 12900, in merge
+    return merge(
+           ^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 385, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 1018, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 1620, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 1776, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'team_name'
+2026-06-21 02:56:53 | WARNING  | pipeline.fetcher | API failed — loading fallback data: data/processed/football_data_latest.csv
+2026-06-21 02:56:53 | INFO     | main | Raw data fetched: 20 rows
+2026-06-21 02:56:53 | INFO     | pipeline.processor | Processing football data
+2026-06-21 02:56:53 | INFO     | pipeline.processor | Duplicates removed: 20 → 20 rows
+2026-06-21 02:56:54 | INFO     | pipeline.processor | Schema validation passed
+2026-06-21 02:56:54 | INFO     | pipeline.processor | Engineered 29 features
+2026-06-21 02:56:54 | INFO     | main | Data processed: 20 rows, 29 features
+2026-06-21 02:56:54 | INFO     | pipeline.storage | CSV (latest) saved: data/processed/football_data_latest.csv
+2026-06-21 02:56:54 | INFO     | pipeline.storage | CSV (archive) saved: data/processed/football_data_2026-06-21.csv
+2026-06-21 02:56:54 | WARNING  | pipeline.storage | Parquet engine (pyarrow/fastparquet) not installed — skipping Parquet output. Install pyarrow to enable: pip install pyarrow
+2026-06-21 02:56:54 | INFO     | pipeline.reporter | Chart saved: reports/chart_points_table.png
+2026-06-21 02:56:54 | INFO     | pipeline.reporter | Chart saved: reports/chart_attack_defence.png
+2026-06-21 02:56:54 | INFO     | pipeline.reporter | Chart saved: reports/chart_pythagorean.png
+2026-06-21 02:56:54 | INFO     | pipeline.reporter | HTML report saved: reports/pipeline_report.html
+2026-06-21 02:56:54 | INFO     | main | ============================================================
+2026-06-21 02:56:54 | INFO     | main |   PIPELINE COMPLETED SUCCESSFULLY
+2026-06-21 02:56:54 | INFO     | main | ============================================================
