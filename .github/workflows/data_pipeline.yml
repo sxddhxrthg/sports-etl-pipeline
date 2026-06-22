@@ -5,9 +5,8 @@ name: Sports Data Pipeline — Daily ETL
 # ──────────────────────────────────────────────────────────────
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    # Cron syntax: minute hour day-of-month month day-of-week
-    - cron: "0 0 * * *"
+    # Runs every 2 hours (12 times a day)
+    - cron: "0 */2 * * *"
   # Allow manual trigger from GitHub Actions UI
   workflow_dispatch:
     inputs:
@@ -102,29 +101,33 @@ jobs:
             reports/
           retention-days: 30
 
-      # ── 8. Commit & push updated data ────────────────────
+      # ── 8. Commit & push updated data (Interval Logic) ────
       - name: Commit and push data
         run: |
           git config --global user.name "sxddhxrthg"
           git config --global user.email "ganesh.siddharth@gmail.com"
           
-          # First, save any real football data from your ETL pipeline
+          # First, commit any real football data from your ETL pipeline if it changed
           git add data/ reports/ || true
-          git commit -m "Automated ETL data update: $(date +'%Y-%m-%d')" || true
+          git commit -m "Automated ETL data update: $(date +'%Y-%m-%d %H:%M')" || true
           
-          # Now, generate the random 4 to 12 heartbeat commits
-          NUM_COMMITS=$(( (RANDOM % 9) + 4 ))
-          echo "Generating $NUM_COMMITS random commits to boost GitHub graph..."
+          # Probability Check to mimic natural, spaced-out developer activity
+          CHANCE=$((RANDOM % 100))
+          echo "Activity roll: $CHANCE"
           
-          for i in $(seq 1 $NUM_COMMITS); do
-            echo "Heartbeat $i at $(date)" > daily_heartbeat.txt
+          # 75% chance to make an extra commit during this specific 2-hour window.
+          # Over 12 runs a day, this averages 9 commits, dynamically shifting between 4 and 12.
+          if [ $CHANCE -lt 75 ]; then
+            echo "Making a natural contribution for this time block..."
+            echo "Heartbeat at $(date)" > daily_heartbeat.txt
             git add daily_heartbeat.txt
-            git commit -m "Automated contribution $i - $(date +'%H:%M:%S')"
-            sleep 1 # Adds a 1-second pause so timestamps are unique
-          done
+            git commit -m "Update pipeline processing logs - $(date +'%H:%M')"
+          else
+            echo "Taking a break this interval to mimic natural developer activity."
+          fi
           
           # Push everything to GitHub
-          git push
+          git push || true
 
       # ── 9. Post-run summary ───────────────────────────────
       - name: Print run summary
