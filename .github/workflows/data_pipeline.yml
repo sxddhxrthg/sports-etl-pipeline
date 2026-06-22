@@ -1,4 +1,5 @@
 name: Sports Data Pipeline — Daily ETL
+
 # ──────────────────────────────────────────────────────────────
 # Triggers
 # ──────────────────────────────────────────────────────────────
@@ -23,11 +24,13 @@ on:
         required: false
         default: "false"
         type: boolean
+
 # ──────────────────────────────────────────────────────────────
 # Permissions — required to push commits back to the repo
 # ──────────────────────────────────────────────────────────────
 permissions:
   contents: write
+
 # ──────────────────────────────────────────────────────────────
 # Jobs
 # ──────────────────────────────────────────────────────────────
@@ -36,6 +39,7 @@ jobs:
     name: "ETL Pipeline — ${{ github.event.inputs.sport || 'football' }}"
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     steps:
       # ── 1. Checkout ────────────────────────────────────────
       - name: Checkout repository
@@ -43,11 +47,13 @@ jobs:
         with:
           # Fetch full history so contribution graph credits are accurate
           fetch-depth: 0
+
       # ── 2. Python setup ───────────────────────────────────
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       # ── 3. Cache pip dependencies ─────────────────────────
       - name: Cache pip packages
         uses: actions/cache@v4
@@ -56,15 +62,18 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
+
       # ── 4. Install dependencies ───────────────────────────
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       # ── 5. Ensure output directories exist ────────────────
       - name: Create output directories
         run: |
           mkdir -p data/raw data/processed reports logs
+
       # ── 6. Run the pipeline ───────────────────────────────
       - name: Run data pipeline
         env:
@@ -81,6 +90,7 @@ jobs:
           echo "🚀 Starting pipeline for sport: $SPORT"
           python main.py
           echo "✅ Pipeline completed successfully"
+
       # ── 7. Upload artifacts (logs + reports) ──────────────
       - name: Upload pipeline artifacts
         if: always()  # Run even if pipeline fails — helps with debugging
@@ -91,22 +101,31 @@ jobs:
             logs/
             reports/
           retention-days: 30
+
       # ── 8. Commit & push updated data ────────────────────
-      #
-      # CRITICAL: Replace the placeholder values below with your
-      # actual GitHub username and email address.
-      # This ensures commits appear on YOUR contribution graph.
-      #
-      # Your GitHub email MUST match the email on your GitHub account.
-      # Check it at: github.com/settings/emails
-      #
       - name: Commit and push data
         run: |
           git config --global user.name "sxddhxrthg"
           git config --global user.email "ganesh.siddharth@gmail.com"
-          git add .
-          git commit -m "Automated daily data pipeline update [skip ci]" || exit 0
+          
+          # First, save any real football data from your ETL pipeline
+          git add data/ reports/ || true
+          git commit -m "Automated ETL data update: $(date +'%Y-%m-%d')" || true
+          
+          # Now, generate the random 4 to 12 heartbeat commits
+          NUM_COMMITS=$(( (RANDOM % 9) + 4 ))
+          echo "Generating $NUM_COMMITS random commits to boost GitHub graph..."
+          
+          for i in $(seq 1 $NUM_COMMITS); do
+            echo "Heartbeat $i at $(date)" > daily_heartbeat.txt
+            git add daily_heartbeat.txt
+            git commit -m "Automated contribution $i - $(date +'%H:%M:%S')"
+            sleep 1 # Adds a 1-second pause so timestamps are unique
+          done
+          
+          # Push everything to GitHub
           git push
+
       # ── 9. Post-run summary ───────────────────────────────
       - name: Print run summary
         if: always()
@@ -122,4 +141,3 @@ jobs:
             ROWS=$(tail -n +2 data/processed/football_data_latest.csv | wc -l)
             echo "| Rows Processed | $ROWS |" >> $GITHUB_STEP_SUMMARY
           fi
-
