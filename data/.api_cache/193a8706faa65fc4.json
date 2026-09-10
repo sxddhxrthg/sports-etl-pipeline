@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-09T22:09:09.095566+00:00",
-  "elapsed": 0.089101,
+  "created_at": "2026-09-10T02:30:07.901372+00:00",
+  "elapsed": 0.091995,
   "encoding": "UTF-8",
-  "expires": "2026-09-09T23:09:09.095536+00:00",
+  "expires": "2026-09-10T03:30:07.901349+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,13 +10,13 @@
     "Content-Encoding": "gzip",
     "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Wed, 09 Sep 2026 22:09:09 GMT",
+    "Date": "Thu, 10 Sep 2026 02:30:07 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Kamol",
+    "X-Authenticated-Client": "Mateo",
     "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "7",
+    "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
   },
