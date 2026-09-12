@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-12T08:16:28.762292+00:00",
-  "elapsed": 0.412925,
+  "created_at": "2026-09-12T13:17:26.228298+00:00",
+  "elapsed": 0.43161,
   "encoding": "UTF-8",
-  "expires": "2026-09-12T09:16:28.762269+00:00",
+  "expires": "2026-09-12T14:17:26.228264+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 12 Sep 2026 08:16:28 GMT",
+    "Date": "Sat, 12 Sep 2026 13:17:26 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -112,7 +112,7 @@
           "venue": "Anfield",
           "lastUpdated": "2022-02-10T19:30:22Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -267,7 +267,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -298,7 +298,7 @@
           "venue": "Vitality Stadium",
           "lastUpdated": "2024-08-29T08:54:34Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -391,7 +391,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": 2,
         "penalties": null
@@ -422,7 +422,7 @@
           "venue": "Craven Cottage",
           "lastUpdated": "2024-07-29T17:16:11Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -453,7 +453,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -484,7 +484,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -577,7 +577,7 @@
           "venue": "Selhurst Park",
           "lastUpdated": "2022-02-10T19:22:36Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -608,7 +608,7 @@
           "venue": "Kingston Communications Stadium",
           "lastUpdated": "2022-02-22T14:19:00Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 1,
         "assists": null,
         "penalties": null
@@ -639,7 +639,7 @@
           "venue": "Kingston Communications Stadium",
           "lastUpdated": "2022-02-22T14:19:00Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 1,
         "assists": null,
         "penalties": null
@@ -670,7 +670,7 @@
           "venue": "Portman Road Stadium",
           "lastUpdated": "2022-10-28T10:50:05Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 1,
         "assists": null,
         "penalties": null
