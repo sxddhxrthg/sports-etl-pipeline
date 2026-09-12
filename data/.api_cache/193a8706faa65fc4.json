@@ -1,22 +1,22 @@
 {
-  "created_at": "2026-09-12T19:58:42.253362+00:00",
-  "elapsed": 0.10803,
+  "created_at": "2026-09-12T21:58:56.702040+00:00",
+  "elapsed": 0.357469,
   "encoding": "UTF-8",
-  "expires": "2026-09-12T20:58:42.253327+00:00",
+  "expires": "2026-09-12T22:58:56.702010+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "und",
+    "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 12 Sep 2026 19:58:42 GMT",
+    "Date": "Sat, 12 Sep 2026 21:58:56 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Niran",
-    "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "25",
+    "X-Authenticated-Client": "Siddharth",
+    "X-Cache-Status": "MISS",
+    "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
   },
@@ -55,6 +55,37 @@
       "winner": null
     },
     "scorers": [
+      {
+        "player": {
+          "id": 99813,
+          "name": "Bukayo Saka",
+          "firstName": "Bukayo",
+          "lastName": "Saka",
+          "dateOfBirth": "2001-09-05",
+          "nationality": "England",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 57,
+          "name": "Arsenal FC",
+          "shortName": "Arsenal",
+          "tla": "ARS",
+          "crest": "https://crests.football-data.org/57.png",
+          "address": "75 Drayton Park London N5 1BU",
+          "website": "http://www.arsenal.com",
+          "founded": 1886,
+          "clubColors": "Red / White",
+          "venue": "Emirates Stadium",
+          "lastUpdated": "2022-02-10T19:48:56Z"
+        },
+        "playedMatches": 4,
+        "goals": 3,
+        "assists": null,
+        "penalties": 1
+      },
       {
         "player": {
           "id": 6396,
@@ -284,37 +315,6 @@
           "position": null,
           "shirtNumber": null,
           "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 57,
-          "name": "Arsenal FC",
-          "shortName": "Arsenal",
-          "tla": "ARS",
-          "crest": "https://crests.football-data.org/57.png",
-          "address": "75 Drayton Park London N5 1BU",
-          "website": "http://www.arsenal.com",
-          "founded": 1886,
-          "clubColors": "Red / White",
-          "venue": "Emirates Stadium",
-          "lastUpdated": "2022-02-10T19:48:56Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 99813,
-          "name": "Bukayo Saka",
-          "firstName": "Bukayo",
-          "lastName": "Saka",
-          "dateOfBirth": "2001-09-05",
-          "nationality": "England",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:29Z"
         },
         "team": {
           "id": 57,
