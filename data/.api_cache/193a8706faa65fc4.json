@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-12T16:40:25.097624+00:00",
-  "elapsed": 0.089238,
+  "created_at": "2026-09-12T19:58:42.253362+00:00",
+  "elapsed": 0.10803,
   "encoding": "UTF-8",
-  "expires": "2026-09-12T17:40:25.097594+00:00",
+  "expires": "2026-09-12T20:58:42.253327+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,13 +10,13 @@
     "Content-Encoding": "gzip",
     "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 12 Sep 2026 16:40:25 GMT",
+    "Date": "Sat, 12 Sep 2026 19:58:42 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Matias",
+    "X-Authenticated-Client": "Niran",
     "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "46",
+    "X-RequestCounter-Reset": "25",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
   },
@@ -298,7 +298,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -329,7 +329,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -360,7 +360,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
