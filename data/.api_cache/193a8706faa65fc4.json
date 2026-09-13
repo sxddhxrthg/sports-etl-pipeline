@@ -1,22 +1,22 @@
 {
-  "created_at": "2026-09-13T14:00:29.955385+00:00",
-  "elapsed": 0.115217,
+  "created_at": "2026-09-13T18:27:21.718067+00:00",
+  "elapsed": 0.437603,
   "encoding": "UTF-8",
-  "expires": "2026-09-13T15:00:29.955352+00:00",
+  "expires": "2026-09-13T19:27:21.718039+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "und",
+    "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 13 Sep 2026 14:00:29 GMT",
+    "Date": "Sun, 13 Sep 2026 18:27:21 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Niran",
-    "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "2",
+    "X-Authenticated-Client": "Siddharth",
+    "X-Cache-Status": "MISS",
+    "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
   },
@@ -55,6 +55,37 @@
       "winner": null
     },
     "scorers": [
+      {
+        "player": {
+          "id": 38101,
+          "name": "Erling Haaland",
+          "firstName": "Erling",
+          "lastName": "Haaland",
+          "dateOfBirth": "2000-07-21",
+          "nationality": "Norway",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 65,
+          "name": "Manchester City FC",
+          "shortName": "Man City",
+          "tla": "MCI",
+          "crest": "https://crests.football-data.org/65.png",
+          "address": "SportCity Manchester M11 3FF",
+          "website": "https://www.mancity.com",
+          "founded": 1880,
+          "clubColors": "Sky Blue / White",
+          "venue": "Etihad Stadium",
+          "lastUpdated": "2022-02-10T19:48:37Z"
+        },
+        "playedMatches": 4,
+        "goals": 4,
+        "assists": null,
+        "penalties": null
+      },
       {
         "player": {
           "id": 99813,
@@ -181,37 +212,6 @@
       },
       {
         "player": {
-          "id": 38101,
-          "name": "Erling Haaland",
-          "firstName": "Erling",
-          "lastName": "Haaland",
-          "dateOfBirth": "2000-07-21",
-          "nationality": "Norway",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 65,
-          "name": "Manchester City FC",
-          "shortName": "Man City",
-          "tla": "MCI",
-          "crest": "https://crests.football-data.org/65.png",
-          "address": "SportCity Manchester M11 3FF",
-          "website": "https://www.mancity.com",
-          "founded": 1880,
-          "clubColors": "Sky Blue / White",
-          "venue": "Etihad Stadium",
-          "lastUpdated": "2022-02-10T19:48:37Z"
-        },
-        "playedMatches": 3,
-        "goals": 3,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 6486,
           "name": "Alexander Isak",
           "firstName": "Alexander",
@@ -298,7 +298,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 3,
         "assists": 1,
         "penalties": 1
@@ -577,10 +577,72 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 2,
         "assists": 2,
         "penalties": null
+      },
+      {
+        "player": {
+          "id": 246670,
+          "name": "Malick Yalcouy\u00e9",
+          "firstName": "Malick",
+          "lastName": "Yalcouy\u00e9",
+          "dateOfBirth": "2005-11-18",
+          "nationality": "Mali",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:43Z"
+        },
+        "team": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC",
+          "shortName": "Brighton Hove",
+          "tla": "BHA",
+          "crest": "https://crests.football-data.org/397.png",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "website": "http://www.seagulls.co.uk",
+          "founded": 1898,
+          "clubColors": "Blue / White",
+          "venue": "The American Express Community Stadium",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "playedMatches": 4,
+        "goals": 2,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 8273,
+          "name": "Pascal Gro\u00df",
+          "firstName": "Pascal",
+          "lastName": "Gro\u00df",
+          "dateOfBirth": "1991-06-15",
+          "nationality": "Germany",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC",
+          "shortName": "Brighton Hove",
+          "tla": "BHA",
+          "crest": "https://crests.football-data.org/397.png",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "website": "http://www.seagulls.co.uk",
+          "founded": 1898,
+          "clubColors": "Blue / White",
+          "venue": "The American Express Community Stadium",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "playedMatches": 4,
+        "goals": 2,
+        "assists": 2,
+        "penalties": 1
       },
       {
         "player": {
@@ -611,68 +673,6 @@
         "playedMatches": 4,
         "goals": 2,
         "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 8626,
-          "name": "Bryan Mbeumo",
-          "firstName": "Bryan",
-          "lastName": "Mbeumo",
-          "dateOfBirth": "1999-08-07",
-          "nationality": "Cameroon",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:43Z"
-        },
-        "team": {
-          "id": 66,
-          "name": "Manchester United FC",
-          "shortName": "Man United",
-          "tla": "MUN",
-          "crest": "https://crests.football-data.org/66.png",
-          "address": "Sir Matt Busby Way Manchester M16 0RA",
-          "website": "http://www.manutd.com",
-          "founded": 1878,
-          "clubColors": "Red / White",
-          "venue": "Old Trafford",
-          "lastUpdated": "2022-02-10T19:27:46Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 137068,
-          "name": "Tyrick Mitchell",
-          "firstName": "Tyrick",
-          "lastName": "Mitchell",
-          "dateOfBirth": "1999-09-01",
-          "nationality": "England",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:44Z"
-        },
-        "team": {
-          "id": 354,
-          "name": "Crystal Palace FC",
-          "shortName": "Crystal Palace",
-          "tla": "CRY",
-          "crest": "https://crests.football-data.org/354.png",
-          "address": "Whitehorse Lane London SE25 6PU",
-          "website": "http://www.cpfc.co.uk",
-          "founded": 1905,
-          "clubColors": "Red / Blue",
-          "venue": "Selhurst Park",
-          "lastUpdated": "2022-02-10T19:22:36Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": null,
         "penalties": null
       }
     ]
