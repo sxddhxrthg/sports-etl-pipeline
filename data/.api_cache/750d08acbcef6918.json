@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-14T16:05:46.208329+00:00",
-  "elapsed": 0.452089,
+  "created_at": "2026-09-14T21:15:59.675007+00:00",
+  "elapsed": 0.642294,
   "encoding": "UTF-8",
-  "expires": "2026-09-14T17:05:46.208294+00:00",
+  "expires": "2026-09-14T22:15:59.674975+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,11 +10,11 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Mon, 14 Sep 2026 16:05:46 GMT",
+    "Date": "Mon, 14 Sep 2026 21:15:59 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Said Habibi",
+    "X-Authenticated-Client": "John",
     "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
@@ -105,6 +105,25 @@
           {
             "position": 3,
             "team": {
+              "id": 341,
+              "name": "Leeds United FC",
+              "shortName": "Leeds United",
+              "tla": "LEE",
+              "crest": "https://crests.football-data.org/341.png"
+            },
+            "playedGames": 4,
+            "form": null,
+            "won": 2,
+            "draw": 2,
+            "lost": 0,
+            "points": 8,
+            "goalsFor": 7,
+            "goalsAgainst": 3,
+            "goalDifference": 4
+          },
+          {
+            "position": 4,
+            "team": {
               "id": 322,
               "name": "Hull City AFC",
               "shortName": "Hull City",
@@ -122,7 +141,7 @@
             "goalDifference": 3
           },
           {
-            "position": 4,
+            "position": 5,
             "team": {
               "id": 397,
               "name": "Brighton & Hove Albion FC",
@@ -141,7 +160,7 @@
             "goalDifference": 8
           },
           {
-            "position": 5,
+            "position": 6,
             "team": {
               "id": 61,
               "name": "Chelsea FC",
@@ -160,7 +179,7 @@
             "goalDifference": 1
           },
           {
-            "position": 6,
+            "position": 7,
             "team": {
               "id": 402,
               "name": "Brentford FC",
@@ -179,7 +198,7 @@
             "goalDifference": 3
           },
           {
-            "position": 7,
+            "position": 8,
             "team": {
               "id": 64,
               "name": "Liverpool FC",
@@ -198,7 +217,7 @@
             "goalDifference": 2
           },
           {
-            "position": 8,
+            "position": 9,
             "team": {
               "id": 62,
               "name": "Everton FC",
@@ -217,7 +236,7 @@
             "goalDifference": 2
           },
           {
-            "position": 9,
+            "position": 10,
             "team": {
               "id": 349,
               "name": "Ipswich Town FC",
@@ -236,45 +255,7 @@
             "goalDifference": -3
           },
           {
-            "position": 10,
-            "team": {
-              "id": 67,
-              "name": "Newcastle United FC",
-              "shortName": "Newcastle",
-              "tla": "NEW",
-              "crest": "https://crests.football-data.org/67.png"
-            },
-            "playedGames": 3,
-            "form": null,
-            "won": 1,
-            "draw": 2,
-            "lost": 0,
-            "points": 5,
-            "goalsFor": 6,
-            "goalsAgainst": 4,
-            "goalDifference": 2
-          },
-          {
             "position": 11,
-            "team": {
-              "id": 341,
-              "name": "Leeds United FC",
-              "shortName": "Leeds United",
-              "tla": "LEE",
-              "crest": "https://crests.football-data.org/341.png"
-            },
-            "playedGames": 3,
-            "form": null,
-            "won": 1,
-            "draw": 2,
-            "lost": 0,
-            "points": 5,
-            "goalsFor": 3,
-            "goalsAgainst": 2,
-            "goalDifference": 1
-          },
-          {
-            "position": 12,
             "team": {
               "id": 351,
               "name": "Nottingham Forest FC",
@@ -291,6 +272,25 @@
             "goalsFor": 4,
             "goalsAgainst": 4,
             "goalDifference": 0
+          },
+          {
+            "position": 12,
+            "team": {
+              "id": 67,
+              "name": "Newcastle United FC",
+              "shortName": "Newcastle",
+              "tla": "NEW",
+              "crest": "https://crests.football-data.org/67.png"
+            },
+            "playedGames": 4,
+            "form": null,
+            "won": 1,
+            "draw": 2,
+            "lost": 1,
+            "points": 5,
+            "goalsFor": 7,
+            "goalsAgainst": 8,
+            "goalDifference": -1
           },
           {
             "position": 13,
