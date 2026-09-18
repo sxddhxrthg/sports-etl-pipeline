@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-18T14:01:06.539927+00:00",
-  "elapsed": 0.515096,
+  "created_at": "2026-09-18T18:46:41.346367+00:00",
+  "elapsed": 0.431847,
   "encoding": "UTF-8",
-  "expires": "2026-09-18T15:01:06.539895+00:00",
+  "expires": "2026-09-18T19:46:41.346335+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,12 +10,12 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Fri, 18 Sep 2026 14:01:06 GMT",
+    "Date": "Fri, 18 Sep 2026 18:46:41 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
     "X-Authenticated-Client": "Siddharth",
-    "X-Cache-Status": "EXPIRED",
+    "X-Cache-Status": "MISS",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
@@ -205,7 +205,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": 1,
         "penalties": null
@@ -267,7 +267,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -422,7 +422,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -546,7 +546,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": 2,
         "penalties": null
