@@ -1,20 +1,20 @@
 {
-  "created_at": "2026-09-19T08:26:06.009605+00:00",
-  "elapsed": 0.132041,
+  "created_at": "2026-09-19T13:37:54.193232+00:00",
+  "elapsed": 0.093984,
   "encoding": "UTF-8",
-  "expires": "2026-09-19T09:26:06.009576+00:00",
+  "expires": "2026-09-19T14:37:54.193205+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "en-US",
+    "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 19 Sep 2026 08:26:05 GMT",
+    "Date": "Sat, 19 Sep 2026 13:37:54 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Lauri",
+    "X-Authenticated-Client": "Niran",
     "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
@@ -112,7 +112,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": null,
         "penalties": 1
@@ -329,7 +329,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -360,7 +360,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -391,7 +391,7 @@
           "venue": "Portman Road Stadium",
           "lastUpdated": "2022-10-28T10:50:05Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -608,7 +608,7 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -639,7 +639,7 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": 2,
         "penalties": 1
