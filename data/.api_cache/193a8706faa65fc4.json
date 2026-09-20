@@ -1,21 +1,21 @@
 {
-  "created_at": "2026-09-20T12:47:37.413548+00:00",
-  "elapsed": 0.597183,
+  "created_at": "2026-09-20T17:12:53.303812+00:00",
+  "elapsed": 0.133063,
   "encoding": "UTF-8",
-  "expires": "2026-09-20T13:47:37.413504+00:00",
+  "expires": "2026-09-20T18:12:53.303783+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "en-US",
+    "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 20 Sep 2026 12:47:37 GMT",
+    "Date": "Sun, 20 Sep 2026 17:12:53 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Siddharth",
-    "X-Cache-Status": "MISS",
+    "X-Authenticated-Client": "Niran",
+    "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
@@ -80,6 +80,37 @@
           "clubColors": "Sky Blue / White",
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
+        },
+        "playedMatches": 5,
+        "goals": 5,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 6486,
+          "name": "Alexander Isak",
+          "firstName": "Alexander",
+          "lastName": "Isak",
+          "dateOfBirth": "1999-09-21",
+          "nationality": "Sweden",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 64,
+          "name": "Liverpool FC",
+          "shortName": "Liverpool",
+          "tla": "LIV",
+          "crest": "https://crests.football-data.org/64.png",
+          "address": "Anfield Road Liverpool L4 0TH",
+          "website": "http://www.liverpoolfc.tv",
+          "founded": 1892,
+          "clubColors": "Red / White",
+          "venue": "Anfield",
+          "lastUpdated": "2022-02-10T19:30:22Z"
         },
         "playedMatches": 5,
         "goals": 4,
@@ -212,33 +243,33 @@
       },
       {
         "player": {
-          "id": 6486,
-          "name": "Alexander Isak",
-          "firstName": "Alexander",
-          "lastName": "Isak",
-          "dateOfBirth": "1999-09-21",
-          "nationality": "Sweden",
-          "section": "Offence",
+          "id": 133242,
+          "name": "Rayan Cherki",
+          "firstName": "Rayan",
+          "lastName": "Cherki",
+          "dateOfBirth": "2003-08-17",
+          "nationality": "France",
+          "section": "Midfield",
           "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
+          "shirtNumber": 18,
+          "lastUpdated": "2026-06-01T11:16:30Z"
         },
         "team": {
-          "id": 64,
-          "name": "Liverpool FC",
-          "shortName": "Liverpool",
-          "tla": "LIV",
-          "crest": "https://crests.football-data.org/64.png",
-          "address": "Anfield Road Liverpool L4 0TH",
-          "website": "http://www.liverpoolfc.tv",
-          "founded": 1892,
-          "clubColors": "Red / White",
-          "venue": "Anfield",
-          "lastUpdated": "2022-02-10T19:30:22Z"
+          "id": 65,
+          "name": "Manchester City FC",
+          "shortName": "Man City",
+          "tla": "MCI",
+          "crest": "https://crests.football-data.org/65.png",
+          "address": "SportCity Manchester M11 3FF",
+          "website": "https://www.mancity.com",
+          "founded": 1880,
+          "clubColors": "Sky Blue / White",
+          "venue": "Etihad Stadium",
+          "lastUpdated": "2022-02-10T19:48:37Z"
         },
         "playedMatches": 5,
         "goals": 3,
-        "assists": null,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -329,10 +360,41 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": 1,
         "penalties": 1
+      },
+      {
+        "player": {
+          "id": 97535,
+          "name": "Brian Brobbey",
+          "firstName": "Brian",
+          "lastName": "Brobbey",
+          "dateOfBirth": "2002-02-01",
+          "nationality": "Netherlands",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": 17,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 71,
+          "name": "Sunderland AFC",
+          "shortName": "Sunderland",
+          "tla": "SUN",
+          "crest": "https://crests.football-data.org/71.png",
+          "address": "The Sunderland Stadium of Light Sunderland SR5 1SU",
+          "website": "http://www.safc.com",
+          "founded": 1879,
+          "clubColors": "Red / White",
+          "venue": "Stadium of Light",
+          "lastUpdated": "2022-02-19T09:12:07Z"
+        },
+        "playedMatches": 5,
+        "goals": 3,
+        "assists": null,
+        "penalties": null
       },
       {
         "player": {
@@ -608,71 +670,9 @@
           "venue": "Craven Cottage",
           "lastUpdated": "2024-07-29T17:16:11Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 144892,
-          "name": "Cole Palmer",
-          "firstName": "Cole",
-          "lastName": "Palmer",
-          "dateOfBirth": "2002-05-06",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:42Z"
-        },
-        "team": {
-          "id": 61,
-          "name": "Chelsea FC",
-          "shortName": "Chelsea",
-          "tla": "CHE",
-          "crest": "https://crests.football-data.org/61.png",
-          "address": "Fulham Road London SW6 1HS",
-          "website": "http://www.chelseafc.com",
-          "founded": 1905,
-          "clubColors": "Royal Blue / White",
-          "venue": "Stamford Bridge",
-          "lastUpdated": "2022-02-10T19:24:40Z"
-        },
-        "playedMatches": 5,
-        "goals": 2,
-        "assists": 2,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 133242,
-          "name": "Rayan Cherki",
-          "firstName": "Rayan",
-          "lastName": "Cherki",
-          "dateOfBirth": "2003-08-17",
-          "nationality": "France",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": 18,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 65,
-          "name": "Manchester City FC",
-          "shortName": "Man City",
-          "tla": "MCI",
-          "crest": "https://crests.football-data.org/65.png",
-          "address": "SportCity Manchester M11 3FF",
-          "website": "https://www.mancity.com",
-          "founded": 1880,
-          "clubColors": "Sky Blue / White",
-          "venue": "Etihad Stadium",
-          "lastUpdated": "2022-02-10T19:48:37Z"
-        },
-        "playedMatches": 5,
-        "goals": 2,
-        "assists": 2,
         "penalties": null
       }
     ]
