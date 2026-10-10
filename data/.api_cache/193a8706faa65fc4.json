@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-10T10:20:50.238550+00:00",
-  "elapsed": 0.397611,
+  "created_at": "2026-10-10T16:44:13.835741+00:00",
+  "elapsed": 1.004043,
   "encoding": "UTF-8",
-  "expires": "2026-10-10T11:20:50.238524+00:00",
+  "expires": "2026-10-10T17:44:13.835712+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 10 Oct 2026 10:20:50 GMT",
+    "Date": "Sat, 10 Oct 2026 16:44:13 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -56,6 +56,37 @@
     "scorers": [
       {
         "player": {
+          "id": 103125,
+          "name": "Jo\u00e3o Pedro",
+          "firstName": "",
+          "lastName": "Jo\u00e3o Pedro",
+          "dateOfBirth": "2001-09-26",
+          "nationality": "Brazil",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:42Z"
+        },
+        "team": {
+          "id": 61,
+          "name": "Chelsea FC",
+          "shortName": "Chelsea",
+          "tla": "CHE",
+          "crest": "https://crests.football-data.org/61.png",
+          "address": "Fulham Road London SW6 1HS",
+          "website": "http://www.chelseafc.com",
+          "founded": 1905,
+          "clubColors": "Royal Blue / White",
+          "venue": "Stamford Bridge",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "playedMatches": 5,
+        "goals": 5,
+        "assists": 3,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 38101,
           "name": "Erling Haaland",
           "firstName": "Erling",
@@ -83,6 +114,37 @@
         "playedMatches": 5,
         "goals": 5,
         "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 82140,
+          "name": "Morgan Rogers",
+          "firstName": "Morgan",
+          "lastName": "Rogers",
+          "dateOfBirth": "2002-07-26",
+          "nationality": "England",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 61,
+          "name": "Chelsea FC",
+          "shortName": "Chelsea",
+          "tla": "CHE",
+          "crest": "https://crests.football-data.org/61.png",
+          "address": "Fulham Road London SW6 1HS",
+          "website": "http://www.chelseafc.com",
+          "founded": 1905,
+          "clubColors": "Royal Blue / White",
+          "venue": "Stamford Bridge",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "playedMatches": 6,
+        "goals": 4,
+        "assists": 1,
         "penalties": null
       },
       {
@@ -142,7 +204,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 3,
         "assists": null,
         "penalties": 1
@@ -173,71 +235,9 @@
           "venue": "Vitality Stadium",
           "lastUpdated": "2024-08-29T08:54:34Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 3,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 103125,
-          "name": "Jo\u00e3o Pedro",
-          "firstName": "",
-          "lastName": "Jo\u00e3o Pedro",
-          "dateOfBirth": "2001-09-26",
-          "nationality": "Brazil",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:42Z"
-        },
-        "team": {
-          "id": 61,
-          "name": "Chelsea FC",
-          "shortName": "Chelsea",
-          "tla": "CHE",
-          "crest": "https://crests.football-data.org/61.png",
-          "address": "Fulham Road London SW6 1HS",
-          "website": "http://www.chelseafc.com",
-          "founded": 1905,
-          "clubColors": "Royal Blue / White",
-          "venue": "Stamford Bridge",
-          "lastUpdated": "2022-02-10T19:24:40Z"
-        },
-        "playedMatches": 4,
-        "goals": 3,
-        "assists": 3,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 82140,
-          "name": "Morgan Rogers",
-          "firstName": "Morgan",
-          "lastName": "Rogers",
-          "dateOfBirth": "2002-07-26",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:29Z"
-        },
-        "team": {
-          "id": 61,
-          "name": "Chelsea FC",
-          "shortName": "Chelsea",
-          "tla": "CHE",
-          "crest": "https://crests.football-data.org/61.png",
-          "address": "Fulham Road London SW6 1HS",
-          "website": "http://www.chelseafc.com",
-          "founded": 1905,
-          "clubColors": "Royal Blue / White",
-          "venue": "Stamford Bridge",
-          "lastUpdated": "2022-02-10T19:24:40Z"
-        },
-        "playedMatches": 5,
-        "goals": 3,
-        "assists": 1,
         "penalties": null
       },
       {
@@ -297,9 +297,9 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 3,
-        "assists": 3,
+        "assists": 4,
         "penalties": 1
       },
       {
@@ -328,7 +328,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -359,7 +359,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 3,
         "assists": 1,
         "penalties": 1
@@ -421,7 +421,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -452,7 +452,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -483,7 +483,7 @@
           "venue": "Portman Road Stadium",
           "lastUpdated": "2022-10-28T10:50:05Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -545,9 +545,40 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 2,
         "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 142075,
+          "name": "Maxim De Cuyper",
+          "firstName": "Maxim",
+          "lastName": "De Cuyper",
+          "dateOfBirth": "2000-12-22",
+          "nationality": "Belgium",
+          "section": "Defence",
+          "position": null,
+          "shirtNumber": 55,
+          "lastUpdated": "2024-06-12T17:56:51Z"
+        },
+        "team": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC",
+          "shortName": "Brighton Hove",
+          "tla": "BHA",
+          "crest": "https://crests.football-data.org/397.png",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "website": "http://www.seagulls.co.uk",
+          "founded": 1898,
+          "clubColors": "Blue / White",
+          "venue": "The American Express Community Stadium",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "playedMatches": 6,
+        "goals": 2,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -637,37 +668,6 @@
           "clubColors": "Black / White",
           "venue": "St. James' Park",
           "lastUpdated": "2022-09-28T18:51:07Z"
-        },
-        "playedMatches": 5,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 246418,
-          "name": "Joshua King",
-          "firstName": "Joshua",
-          "lastName": "King",
-          "dateOfBirth": "2007-01-03",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:43Z"
-        },
-        "team": {
-          "id": 63,
-          "name": "Fulham FC",
-          "shortName": "Fulham",
-          "tla": "FUL",
-          "crest": "https://crests.football-data.org/63.png",
-          "address": "Craven Cottage, Stevenage Road London SW6 6HH",
-          "website": "http://www.fulhamfc.com",
-          "founded": 1879,
-          "clubColors": "White / Black",
-          "venue": "Craven Cottage",
-          "lastUpdated": "2024-07-29T17:16:11Z"
         },
         "playedMatches": 5,
         "goals": 2,
