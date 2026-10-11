@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-11T16:05:26.759867+00:00",
-  "elapsed": 1.076138,
+  "created_at": "2026-10-11T21:20:12.396067+00:00",
+  "elapsed": 2.226626,
   "encoding": "UTF-8",
-  "expires": "2026-10-11T17:05:26.759838+00:00",
+  "expires": "2026-10-11T22:20:12.396038+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 11 Oct 2026 16:05:26 GMT",
+    "Date": "Sun, 11 Oct 2026 21:20:12 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -56,6 +56,37 @@
     "scorers": [
       {
         "player": {
+          "id": 38101,
+          "name": "Erling Haaland",
+          "firstName": "Erling",
+          "lastName": "Haaland",
+          "dateOfBirth": "2000-07-21",
+          "nationality": "Norway",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 65,
+          "name": "Manchester City FC",
+          "shortName": "Man City",
+          "tla": "MCI",
+          "crest": "https://crests.football-data.org/65.png",
+          "address": "SportCity Manchester M11 3FF",
+          "website": "https://www.mancity.com",
+          "founded": 1880,
+          "clubColors": "Sky Blue / White",
+          "venue": "Etihad Stadium",
+          "lastUpdated": "2022-02-10T19:48:37Z"
+        },
+        "playedMatches": 6,
+        "goals": 6,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 103125,
           "name": "Jo\u00e3o Pedro",
           "firstName": "",
@@ -87,37 +118,6 @@
       },
       {
         "player": {
-          "id": 38101,
-          "name": "Erling Haaland",
-          "firstName": "Erling",
-          "lastName": "Haaland",
-          "dateOfBirth": "2000-07-21",
-          "nationality": "Norway",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 65,
-          "name": "Manchester City FC",
-          "shortName": "Man City",
-          "tla": "MCI",
-          "crest": "https://crests.football-data.org/65.png",
-          "address": "SportCity Manchester M11 3FF",
-          "website": "https://www.mancity.com",
-          "founded": 1880,
-          "clubColors": "Sky Blue / White",
-          "venue": "Etihad Stadium",
-          "lastUpdated": "2022-02-10T19:48:37Z"
-        },
-        "playedMatches": 6,
-        "goals": 5,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 82140,
           "name": "Morgan Rogers",
           "firstName": "Morgan",
@@ -145,6 +145,37 @@
         "playedMatches": 6,
         "goals": 4,
         "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 133242,
+          "name": "Rayan Cherki",
+          "firstName": "Rayan",
+          "lastName": "Cherki",
+          "dateOfBirth": "2003-08-17",
+          "nationality": "France",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": 18,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 65,
+          "name": "Manchester City FC",
+          "shortName": "Man City",
+          "tla": "MCI",
+          "crest": "https://crests.football-data.org/65.png",
+          "address": "SportCity Manchester M11 3FF",
+          "website": "https://www.mancity.com",
+          "founded": 1880,
+          "clubColors": "Sky Blue / White",
+          "venue": "Etihad Stadium",
+          "lastUpdated": "2022-02-10T19:48:37Z"
+        },
+        "playedMatches": 6,
+        "goals": 4,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -269,37 +300,6 @@
         "playedMatches": 6,
         "goals": 3,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 133242,
-          "name": "Rayan Cherki",
-          "firstName": "Rayan",
-          "lastName": "Cherki",
-          "dateOfBirth": "2003-08-17",
-          "nationality": "France",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": 18,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 65,
-          "name": "Manchester City FC",
-          "shortName": "Man City",
-          "tla": "MCI",
-          "crest": "https://crests.football-data.org/65.png",
-          "address": "SportCity Manchester M11 3FF",
-          "website": "https://www.mancity.com",
-          "founded": 1880,
-          "clubColors": "Sky Blue / White",
-          "venue": "Etihad Stadium",
-          "lastUpdated": "2022-02-10T19:48:37Z"
-        },
-        "playedMatches": 6,
-        "goals": 3,
-        "assists": 2,
         "penalties": null
       },
       {
