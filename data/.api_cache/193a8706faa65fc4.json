@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-15T02:41:03.120481+00:00",
-  "elapsed": 1.125346,
+  "created_at": "2026-10-15T08:44:28.237906+00:00",
+  "elapsed": 0.56781,
   "encoding": "UTF-8",
-  "expires": "2026-10-15T03:41:03.120453+00:00",
+  "expires": "2026-10-15T09:44:28.237871+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Thu, 15 Oct 2026 02:41:03 GMT",
+    "Date": "Thu, 15 Oct 2026 08:44:28 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -50,7 +50,7 @@
       "id": 2502,
       "startDate": "2026-08-21",
       "endDate": "2027-05-30",
-      "currentMatchday": 6,
+      "currentMatchday": 7,
       "winner": null
     },
     "scorers": [
