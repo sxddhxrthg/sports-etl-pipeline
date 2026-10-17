@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-17T08:10:55.716113+00:00",
-  "elapsed": 0.600424,
+  "created_at": "2026-10-17T13:23:54.217482+00:00",
+  "elapsed": 0.762895,
   "encoding": "UTF-8",
-  "expires": "2026-10-17T09:10:55.716077+00:00",
+  "expires": "2026-10-17T14:23:54.217455+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 17 Oct 2026 08:10:55 GMT",
+    "Date": "Sat, 17 Oct 2026 13:23:54 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -80,7 +80,7 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 6,
         "assists": null,
         "penalties": null
@@ -111,7 +111,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 5,
         "assists": 3,
         "penalties": null
@@ -142,7 +142,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 4,
         "assists": 1,
         "penalties": null
@@ -173,7 +173,7 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 4,
         "assists": 2,
         "penalties": null
@@ -204,7 +204,7 @@
           "venue": "Anfield",
           "lastUpdated": "2022-02-10T19:30:22Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 6,
         "goals": 4,
         "assists": null,
         "penalties": null
@@ -266,7 +266,7 @@
           "venue": "Goodison Park",
           "lastUpdated": "2022-02-10T19:47:42Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -300,6 +300,37 @@
         "playedMatches": 6,
         "goals": 3,
         "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 2074,
+          "name": "Pedro Neto",
+          "firstName": "",
+          "lastName": "Pedro Neto",
+          "dateOfBirth": "2000-03-09",
+          "nationality": "Portugal",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 61,
+          "name": "Chelsea FC",
+          "shortName": "Chelsea",
+          "tla": "CHE",
+          "crest": "https://crests.football-data.org/61.png",
+          "address": "Fulham Road London SW6 1HS",
+          "website": "http://www.chelseafc.com",
+          "founded": 1905,
+          "clubColors": "Royal Blue / White",
+          "venue": "Stamford Bridge",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "playedMatches": 7,
+        "goals": 3,
+        "assists": 1,
         "penalties": null
       },
       {
@@ -359,7 +390,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -452,7 +483,7 @@
           "venue": "Kingston Communications Stadium",
           "lastUpdated": "2022-02-22T14:19:00Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": 2,
         "penalties": null
@@ -576,7 +607,7 @@
           "venue": "Portman Road Stadium",
           "lastUpdated": "2022-10-28T10:50:05Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -607,7 +638,7 @@
           "venue": "Goodison Park",
           "lastUpdated": "2022-02-10T19:47:42Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 2,
         "assists": 1,
         "penalties": null
@@ -638,40 +669,9 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 2,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 142075,
-          "name": "Maxim De Cuyper",
-          "firstName": "Maxim",
-          "lastName": "De Cuyper",
-          "dateOfBirth": "2000-12-22",
-          "nationality": "Belgium",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": 55,
-          "lastUpdated": "2024-06-12T17:56:51Z"
-        },
-        "team": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC",
-          "shortName": "Brighton Hove",
-          "tla": "BHA",
-          "crest": "https://crests.football-data.org/397.png",
-          "address": "44 North Road Brighton & Hove BN1 1YR",
-          "website": "http://www.seagulls.co.uk",
-          "founded": 1898,
-          "clubColors": "Blue / White",
-          "venue": "The American Express Community Stadium",
-          "lastUpdated": "2024-07-29T17:18:23Z"
-        },
-        "playedMatches": 6,
-        "goals": 2,
-        "assists": 2,
         "penalties": null
       }
     ]
