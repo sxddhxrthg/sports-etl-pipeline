@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-17T16:46:06.733776+00:00",
-  "elapsed": 0.485712,
+  "created_at": "2026-10-17T19:56:25.986770+00:00",
+  "elapsed": 0.660389,
   "encoding": "UTF-8",
-  "expires": "2026-10-17T17:46:06.733748+00:00",
+  "expires": "2026-10-17T20:56:25.986741+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 17 Oct 2026 16:46:06 GMT",
+    "Date": "Sat, 17 Oct 2026 19:56:25 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -237,25 +237,6 @@
           {
             "position": 10,
             "team": {
-              "id": 67,
-              "name": "Newcastle United FC",
-              "shortName": "Newcastle",
-              "tla": "NEW",
-              "crest": "https://crests.football-data.org/67.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 2,
-            "draw": 3,
-            "lost": 2,
-            "points": 9,
-            "goalsFor": 10,
-            "goalsAgainst": 13,
-            "goalDifference": -3
-          },
-          {
-            "position": 11,
-            "team": {
               "id": 349,
               "name": "Ipswich Town FC",
               "shortName": "Ipswich Town",
@@ -273,7 +254,45 @@
             "goalDifference": -4
           },
           {
+            "position": 11,
+            "team": {
+              "id": 67,
+              "name": "Newcastle United FC",
+              "shortName": "Newcastle",
+              "tla": "NEW",
+              "crest": "https://crests.football-data.org/67.png"
+            },
+            "playedGames": 7,
+            "form": null,
+            "won": 2,
+            "draw": 2,
+            "lost": 3,
+            "points": 8,
+            "goalsFor": 10,
+            "goalsAgainst": 14,
+            "goalDifference": -4
+          },
+          {
             "position": 12,
+            "team": {
+              "id": 58,
+              "name": "Aston Villa FC",
+              "shortName": "Aston Villa",
+              "tla": "AVL",
+              "crest": "https://crests.football-data.org/58.png"
+            },
+            "playedGames": 7,
+            "form": null,
+            "won": 2,
+            "draw": 2,
+            "lost": 3,
+            "points": 8,
+            "goalsFor": 7,
+            "goalsAgainst": 11,
+            "goalDifference": -4
+          },
+          {
+            "position": 13,
             "team": {
               "id": 354,
               "name": "Crystal Palace FC",
@@ -292,7 +311,7 @@
             "goalDifference": -3
           },
           {
-            "position": 13,
+            "position": 14,
             "team": {
               "id": 66,
               "name": "Manchester United FC",
@@ -309,25 +328,6 @@
             "goalsFor": 9,
             "goalsAgainst": 9,
             "goalDifference": 0
-          },
-          {
-            "position": 14,
-            "team": {
-              "id": 58,
-              "name": "Aston Villa FC",
-              "shortName": "Aston Villa",
-              "tla": "AVL",
-              "crest": "https://crests.football-data.org/58.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 1,
-            "draw": 3,
-            "lost": 3,
-            "points": 6,
-            "goalsFor": 6,
-            "goalsAgainst": 11,
-            "goalDifference": -5
           },
           {
             "position": 15,
