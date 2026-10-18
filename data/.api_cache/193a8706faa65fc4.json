@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-18T08:28:07.969502+00:00",
-  "elapsed": 0.665974,
+  "created_at": "2026-10-18T13:42:40.081801+00:00",
+  "elapsed": 0.647279,
   "encoding": "UTF-8",
-  "expires": "2026-10-18T09:28:07.969308+00:00",
+  "expires": "2026-10-18T14:42:40.081778+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 18 Oct 2026 08:28:07 GMT",
+    "Date": "Sun, 18 Oct 2026 13:42:40 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -149,6 +149,37 @@
       },
       {
         "player": {
+          "id": 6396,
+          "name": "Marcus Tavernier",
+          "firstName": "Marcus",
+          "lastName": "Tavernier",
+          "dateOfBirth": "1999-03-22",
+          "nationality": "England",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-10-12T12:45:26Z"
+        },
+        "team": {
+          "id": 1044,
+          "name": "AFC Bournemouth",
+          "shortName": "Bournemouth",
+          "tla": "BOU",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "website": "http://www.afcb.co.uk",
+          "founded": 1890,
+          "clubColors": "Red / Black",
+          "venue": "Vitality Stadium",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "playedMatches": 7,
+        "goals": 4,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 82140,
           "name": "Morgan Rogers",
           "firstName": "Morgan",
@@ -207,6 +238,37 @@
         "playedMatches": 7,
         "goals": 4,
         "assists": 2,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 8626,
+          "name": "Bryan Mbeumo",
+          "firstName": "Bryan",
+          "lastName": "Mbeumo",
+          "dateOfBirth": "1999-08-07",
+          "nationality": "Cameroon",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:43Z"
+        },
+        "team": {
+          "id": 66,
+          "name": "Manchester United FC",
+          "shortName": "Man United",
+          "tla": "MUN",
+          "crest": "https://crests.football-data.org/66.png",
+          "address": "Sir Matt Busby Way Manchester M16 0RA",
+          "website": "http://www.manutd.com",
+          "founded": 1878,
+          "clubColors": "Red / White",
+          "venue": "Old Trafford",
+          "lastUpdated": "2022-02-10T19:27:46Z"
+        },
+        "playedMatches": 7,
+        "goals": 4,
+        "assists": null,
         "penalties": null
       },
       {
@@ -273,37 +335,6 @@
       },
       {
         "player": {
-          "id": 6396,
-          "name": "Marcus Tavernier",
-          "firstName": "Marcus",
-          "lastName": "Tavernier",
-          "dateOfBirth": "1999-03-22",
-          "nationality": "England",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-10-12T12:45:26Z"
-        },
-        "team": {
-          "id": 1044,
-          "name": "AFC Bournemouth",
-          "shortName": "Bournemouth",
-          "tla": "BOU",
-          "crest": "https://crests.football-data.org/bournemouth.png",
-          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
-          "website": "http://www.afcb.co.uk",
-          "founded": 1890,
-          "clubColors": "Red / Black",
-          "venue": "Vitality Stadium",
-          "lastUpdated": "2024-08-29T08:54:34Z"
-        },
-        "playedMatches": 6,
-        "goals": 3,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 2074,
           "name": "Pedro Neto",
           "firstName": "",
@@ -359,7 +390,7 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": 4,
         "penalties": 1
@@ -421,41 +452,10 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": 1,
         "penalties": 1
-      },
-      {
-        "player": {
-          "id": 8626,
-          "name": "Bryan Mbeumo",
-          "firstName": "Bryan",
-          "lastName": "Mbeumo",
-          "dateOfBirth": "1999-08-07",
-          "nationality": "Cameroon",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:43Z"
-        },
-        "team": {
-          "id": 66,
-          "name": "Manchester United FC",
-          "shortName": "Man United",
-          "tla": "MUN",
-          "crest": "https://crests.football-data.org/66.png",
-          "address": "Sir Matt Busby Way Manchester M16 0RA",
-          "website": "http://www.manutd.com",
-          "founded": 1878,
-          "clubColors": "Red / White",
-          "venue": "Old Trafford",
-          "lastUpdated": "2022-02-10T19:27:46Z"
-        },
-        "playedMatches": 6,
-        "goals": 3,
-        "assists": null,
-        "penalties": null
       },
       {
         "player": {
