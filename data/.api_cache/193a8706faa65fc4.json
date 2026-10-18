@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-18T13:42:40.081801+00:00",
-  "elapsed": 0.647279,
+  "created_at": "2026-10-18T17:01:34.094329+00:00",
+  "elapsed": 0.710023,
   "encoding": "UTF-8",
-  "expires": "2026-10-18T14:42:40.081778+00:00",
+  "expires": "2026-10-18T18:01:34.094265+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,14 +10,15 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 18 Oct 2026 13:42:40 GMT",
+    "Date": "Sun, 18 Oct 2026 17:01:34 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
     "X-Authenticated-Client": "Siddharth",
-    "X-Cache-Status": "BYPASS",
+    "X-Cache-Status": "EXPIRED",
     "X-RequestCounter-Reset": "60",
-    "x-requests-available-minute": "9"
+    "x-request_counter-reset": "59",
+    "x-requests-available-minute": "8"
   },
   "reason": "",
   "request": {
@@ -297,7 +298,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": null,
         "penalties": 1
@@ -329,6 +330,37 @@
           "lastUpdated": "2022-02-10T19:47:42Z"
         },
         "playedMatches": 7,
+        "goals": 3,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 190851,
+          "name": "Jack Hinshelwood",
+          "firstName": "Jack",
+          "lastName": "Hinshelwood",
+          "dateOfBirth": "2005-04-11",
+          "nationality": "England",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:43Z"
+        },
+        "team": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC",
+          "shortName": "Brighton Hove",
+          "tla": "BHA",
+          "crest": "https://crests.football-data.org/397.png",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "website": "http://www.seagulls.co.uk",
+          "founded": 1898,
+          "clubColors": "Blue / White",
+          "venue": "The American Express Community Stadium",
+          "lastUpdated": "2024-07-29T17:18:23Z"
+        },
+        "playedMatches": 2,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -428,6 +460,37 @@
       },
       {
         "player": {
+          "id": 7839,
+          "name": "Dominic Calvert-Lewin",
+          "firstName": "Dominic",
+          "lastName": "Calvert-Lewin",
+          "dateOfBirth": "1997-03-16",
+          "nationality": "England",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:44Z"
+        },
+        "team": {
+          "id": 341,
+          "name": "Leeds United FC",
+          "shortName": "Leeds United",
+          "tla": "LEE",
+          "crest": "https://crests.football-data.org/341.png",
+          "address": "Elland Road Leeds LS11 0ES",
+          "website": "http://www.leedsunited.com",
+          "founded": 1904,
+          "clubColors": "White / Blue",
+          "venue": "Elland Road",
+          "lastUpdated": "2022-02-10T19:27:14Z"
+        },
+        "playedMatches": 7,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 3257,
           "name": "Bruno Fernandes",
           "firstName": "",
@@ -482,6 +545,37 @@
           "clubColors": "Orange / Black",
           "venue": "Kingston Communications Stadium",
           "lastUpdated": "2022-02-22T14:19:00Z"
+        },
+        "playedMatches": 7,
+        "goals": 3,
+        "assists": 2,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 264300,
+          "name": "Charalampos Kostoulas",
+          "firstName": "Charalampos",
+          "lastName": "Kostoulas",
+          "dateOfBirth": "2007-05-30",
+          "nationality": "Greece",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-03-31T09:41:44Z"
+        },
+        "team": {
+          "id": 397,
+          "name": "Brighton & Hove Albion FC",
+          "shortName": "Brighton Hove",
+          "tla": "BHA",
+          "crest": "https://crests.football-data.org/397.png",
+          "address": "44 North Road Brighton & Hove BN1 1YR",
+          "website": "http://www.seagulls.co.uk",
+          "founded": 1898,
+          "clubColors": "Blue / White",
+          "venue": "The American Express Community Stadium",
+          "lastUpdated": "2024-07-29T17:18:23Z"
         },
         "playedMatches": 7,
         "goals": 3,
@@ -545,7 +639,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -576,102 +670,9 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 2,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 176628,
-          "name": "Emersonn",
-          "firstName": "",
-          "lastName": "Emersonn",
-          "dateOfBirth": "2004-07-16",
-          "nationality": "Brazil",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-05-03T09:42:08Z"
-        },
-        "team": {
-          "id": 349,
-          "name": "Ipswich Town FC",
-          "shortName": "Ipswich Town",
-          "tla": "IPS",
-          "crest": "https://crests.football-data.org/349.png",
-          "address": "Portman Road Ipswich IP1 2DA",
-          "website": "http://www.itfc.co.uk",
-          "founded": 1887,
-          "clubColors": "Blue / White",
-          "venue": "Portman Road Stadium",
-          "lastUpdated": "2022-10-28T10:50:05Z"
-        },
-        "playedMatches": 7,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 140194,
-          "name": "Kiernan Dewsbury Hall",
-          "firstName": "Kiernan",
-          "lastName": "Dewsbury-Hall",
-          "dateOfBirth": "1998-09-06",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:44Z"
-        },
-        "team": {
-          "id": 62,
-          "name": "Everton FC",
-          "shortName": "Everton",
-          "tla": "EVE",
-          "crest": "https://crests.football-data.org/62.png",
-          "address": "Goodison Park Liverpool L4 4EL",
-          "website": "http://www.evertonfc.com",
-          "founded": 1878,
-          "clubColors": "Blue / White",
-          "venue": "Goodison Park",
-          "lastUpdated": "2022-02-10T19:47:42Z"
-        },
-        "playedMatches": 7,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 101910,
-          "name": "Keane Lewis-Potter",
-          "firstName": "Keane",
-          "lastName": "Lewis-Potter",
-          "dateOfBirth": "2001-02-22",
-          "nationality": "England",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-10-12T12:45:26Z"
-        },
-        "team": {
-          "id": 402,
-          "name": "Brentford FC",
-          "shortName": "Brentford",
-          "tla": "BRE",
-          "crest": "https://crests.football-data.org/402.png",
-          "address": "Braemar Road Brentford TW8 0NT",
-          "website": "http://www.brentfordfc.co.uk",
-          "founded": 1889,
-          "clubColors": "Red / White / Black",
-          "venue": "Griffin Park",
-          "lastUpdated": "2022-04-03T16:24:00Z"
-        },
-        "playedMatches": 7,
-        "goals": 2,
-        "assists": 1,
         "penalties": null
       }
     ]
