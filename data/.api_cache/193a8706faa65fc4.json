@@ -1,16 +1,16 @@
 {
-  "created_at": "2026-10-24T20:02:36.918853+00:00",
-  "elapsed": 0.810101,
+  "created_at": "2026-10-24T23:54:41.760974+00:00",
+  "elapsed": 1.012519,
   "encoding": "UTF-8",
-  "expires": "2026-10-24T21:02:36.918825+00:00",
+  "expires": "2026-10-25T00:54:41.760940+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "en-US",
+    "Content-Language": "de-DE",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 24 Oct 2026 20:02:36 GMT",
+    "Date": "Sat, 24 Oct 2026 23:54:41 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -81,8 +81,8 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 7,
-        "goals": 8,
+        "playedMatches": 8,
+        "goals": 9,
         "assists": null,
         "penalties": null
       },
@@ -205,7 +205,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 4,
         "assists": 1,
         "penalties": null
@@ -236,7 +236,7 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 4,
         "assists": 2,
         "penalties": null
@@ -266,6 +266,37 @@
           "clubColors": "Red / White",
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
+        },
+        "playedMatches": 7,
+        "goals": 4,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 152515,
+          "name": "Nicolas Jackson",
+          "firstName": "Nicolas",
+          "lastName": "Jackson",
+          "dateOfBirth": "2001-06-20",
+          "nationality": "Senegal",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 58,
+          "name": "Aston Villa FC",
+          "shortName": "Aston Villa",
+          "tla": "AVL",
+          "crest": "https://crests.football-data.org/58.png",
+          "address": "Villa Park Birmingham B6 6HE",
+          "website": "http://www.avfc.co.uk",
+          "founded": 1872,
+          "clubColors": "Claret / Sky Blue",
+          "venue": "Villa Park",
+          "lastUpdated": "2022-04-03T16:22:14Z"
         },
         "playedMatches": 7,
         "goals": 4,
@@ -329,7 +360,7 @@
           "venue": "Goodison Park",
           "lastUpdated": "2022-02-10T19:47:42Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -391,7 +422,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 3,
         "assists": 1,
         "penalties": null
@@ -639,38 +670,7 @@
           "venue": "Emirates Stadium",
           "lastUpdated": "2022-02-10T19:48:56Z"
         },
-        "playedMatches": 7,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 7427,
-          "name": "Martin \u00d8degaard",
-          "firstName": "Martin",
-          "lastName": "\u00d8degaard",
-          "dateOfBirth": "1998-12-17",
-          "nationality": "Norway",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 57,
-          "name": "Arsenal FC",
-          "shortName": "Arsenal",
-          "tla": "ARS",
-          "crest": "https://crests.football-data.org/57.png",
-          "address": "75 Drayton Park London N5 1BU",
-          "website": "http://www.arsenal.com",
-          "founded": 1886,
-          "clubColors": "Red / White",
-          "venue": "Emirates Stadium",
-          "lastUpdated": "2022-02-10T19:48:56Z"
-        },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 2,
         "assists": null,
         "penalties": null
