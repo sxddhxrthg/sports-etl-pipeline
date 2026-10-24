@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-24T13:46:37.044999+00:00",
-  "elapsed": 0.803212,
+  "created_at": "2026-10-24T17:08:27.578298+00:00",
+  "elapsed": 0.121751,
   "encoding": "UTF-8",
-  "expires": "2026-10-24T14:46:37.044967+00:00",
+  "expires": "2026-10-24T18:08:27.578274+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,12 +10,12 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 24 Oct 2026 13:46:36 GMT",
+    "Date": "Sat, 24 Oct 2026 17:08:27 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Siddharth",
-    "X-Cache-Status": "MISS",
+    "X-Authenticated-Client": "Lauri",
+    "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
@@ -205,7 +205,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 4,
         "assists": 1,
         "penalties": null
@@ -422,7 +422,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 3,
         "assists": 1,
         "penalties": null
