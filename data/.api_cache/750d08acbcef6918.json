@@ -1,20 +1,20 @@
 {
-  "created_at": "2026-10-25T08:51:55.192708+00:00",
-  "elapsed": 0.530505,
+  "created_at": "2026-10-25T14:02:42.457513+00:00",
+  "elapsed": 0.77654,
   "encoding": "UTF-8",
-  "expires": "2026-10-25T09:51:55.192673+00:00",
+  "expires": "2026-10-25T15:02:42.457480+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "en-US",
+    "Content-Language": "de-DE",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 25 Oct 2026 08:51:55 GMT",
+    "Date": "Sun, 25 Oct 2026 14:02:42 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Kickstats",
+    "X-Authenticated-Client": "steven",
     "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
@@ -111,12 +111,12 @@
               "tla": "BHA",
               "crest": "https://crests.football-data.org/397.png"
             },
-            "playedGames": 7,
+            "playedGames": 8,
             "form": null,
             "won": 5,
-            "draw": 1,
+            "draw": 2,
             "lost": 1,
-            "points": 16,
+            "points": 17,
             "goalsFor": 23,
             "goalsAgainst": 5,
             "goalDifference": 18
@@ -149,18 +149,37 @@
               "tla": "LIV",
               "crest": "https://crests.football-data.org/64.png"
             },
-            "playedGames": 7,
+            "playedGames": 8,
             "form": null,
             "won": 3,
-            "draw": 3,
+            "draw": 4,
             "lost": 1,
-            "points": 12,
+            "points": 13,
             "goalsFor": 9,
             "goalsAgainst": 8,
             "goalDifference": 1
           },
           {
             "position": 6,
+            "team": {
+              "id": 402,
+              "name": "Brentford FC",
+              "shortName": "Brentford",
+              "tla": "BRE",
+              "crest": "https://crests.football-data.org/402.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 2,
+            "draw": 5,
+            "lost": 1,
+            "points": 11,
+            "goalsFor": 13,
+            "goalsAgainst": 8,
+            "goalDifference": 5
+          },
+          {
+            "position": 7,
             "team": {
               "id": 58,
               "name": "Aston Villa FC",
@@ -177,25 +196,6 @@
             "goalsFor": 9,
             "goalsAgainst": 12,
             "goalDifference": -3
-          },
-          {
-            "position": 7,
-            "team": {
-              "id": 402,
-              "name": "Brentford FC",
-              "shortName": "Brentford",
-              "tla": "BRE",
-              "crest": "https://crests.football-data.org/402.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 2,
-            "draw": 4,
-            "lost": 1,
-            "points": 10,
-            "goalsFor": 13,
-            "goalsAgainst": 8,
-            "goalDifference": 5
           },
           {
             "position": 8,
@@ -219,6 +219,25 @@
           {
             "position": 9,
             "team": {
+              "id": 322,
+              "name": "Hull City AFC",
+              "shortName": "Hull City",
+              "tla": "HUL",
+              "crest": "https://crests.football-data.org/322.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 2,
+            "draw": 4,
+            "lost": 2,
+            "points": 10,
+            "goalsFor": 8,
+            "goalsAgainst": 7,
+            "goalDifference": 1
+          },
+          {
+            "position": 10,
+            "team": {
               "id": 62,
               "name": "Everton FC",
               "shortName": "Everton",
@@ -236,7 +255,7 @@
             "goalDifference": -1
           },
           {
-            "position": 10,
+            "position": 11,
             "team": {
               "id": 349,
               "name": "Ipswich Town FC",
@@ -253,25 +272,6 @@
             "goalsFor": 12,
             "goalsAgainst": 16,
             "goalDifference": -4
-          },
-          {
-            "position": 11,
-            "team": {
-              "id": 322,
-              "name": "Hull City AFC",
-              "shortName": "Hull City",
-              "tla": "HUL",
-              "crest": "https://crests.football-data.org/322.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 2,
-            "draw": 3,
-            "lost": 2,
-            "points": 9,
-            "goalsFor": 8,
-            "goalsAgainst": 7,
-            "goalDifference": 1
           },
           {
             "position": 12,
@@ -295,6 +295,44 @@
           {
             "position": 13,
             "team": {
+              "id": 67,
+              "name": "Newcastle United FC",
+              "shortName": "Newcastle",
+              "tla": "NEW",
+              "crest": "https://crests.football-data.org/67.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 2,
+            "draw": 3,
+            "lost": 3,
+            "points": 9,
+            "goalsFor": 10,
+            "goalsAgainst": 14,
+            "goalDifference": -4
+          },
+          {
+            "position": 14,
+            "team": {
+              "id": 66,
+              "name": "Manchester United FC",
+              "shortName": "Man United",
+              "tla": "MUN",
+              "crest": "https://crests.football-data.org/66.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 1,
+            "draw": 5,
+            "lost": 2,
+            "points": 8,
+            "goalsFor": 10,
+            "goalsAgainst": 10,
+            "goalDifference": 0
+          },
+          {
+            "position": 15,
+            "team": {
               "id": 63,
               "name": "Fulham FC",
               "shortName": "Fulham",
@@ -312,44 +350,6 @@
             "goalDifference": -2
           },
           {
-            "position": 14,
-            "team": {
-              "id": 67,
-              "name": "Newcastle United FC",
-              "shortName": "Newcastle",
-              "tla": "NEW",
-              "crest": "https://crests.football-data.org/67.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 2,
-            "draw": 2,
-            "lost": 3,
-            "points": 8,
-            "goalsFor": 10,
-            "goalsAgainst": 14,
-            "goalDifference": -4
-          },
-          {
-            "position": 15,
-            "team": {
-              "id": 66,
-              "name": "Manchester United FC",
-              "shortName": "Man United",
-              "tla": "MUN",
-              "crest": "https://crests.football-data.org/66.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 1,
-            "draw": 4,
-            "lost": 2,
-            "points": 7,
-            "goalsFor": 10,
-            "goalsAgainst": 10,
-            "goalDifference": 0
-          },
-          {
             "position": 16,
             "team": {
               "id": 354,
@@ -358,12 +358,12 @@
               "tla": "CRY",
               "crest": "https://crests.football-data.org/354.png"
             },
-            "playedGames": 7,
+            "playedGames": 8,
             "form": null,
             "won": 2,
-            "draw": 1,
+            "draw": 2,
             "lost": 4,
-            "points": 7,
+            "points": 8,
             "goalsFor": 9,
             "goalsAgainst": 17,
             "goalDifference": -8
@@ -377,12 +377,12 @@
               "tla": "BOU",
               "crest": "https://crests.football-data.org/bournemouth.png"
             },
-            "playedGames": 7,
+            "playedGames": 8,
             "form": null,
             "won": 1,
-            "draw": 3,
+            "draw": 4,
             "lost": 3,
-            "points": 6,
+            "points": 7,
             "goalsFor": 9,
             "goalsAgainst": 13,
             "goalDifference": -4
