@@ -1,21 +1,21 @@
 {
-  "created_at": "2026-10-31T14:09:40.413716+00:00",
-  "elapsed": 0.119431,
+  "created_at": "2026-10-31T19:39:32.039726+00:00",
+  "elapsed": 0.53045,
   "encoding": "UTF-8",
-  "expires": "2026-10-31T15:09:40.413686+00:00",
+  "expires": "2026-10-31T20:39:32.039697+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "und",
+    "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 31 Oct 2026 14:09:40 GMT",
+    "Date": "Sat, 31 Oct 2026 19:39:31 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Niran",
-    "X-Cache-Status": "HIT",
+    "X-Authenticated-Client": "Siddharth",
+    "X-Cache-Status": "MISS",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
@@ -298,9 +298,40 @@
           "venue": "Villa Park",
           "lastUpdated": "2022-04-03T16:22:14Z"
         },
-        "playedMatches": 7,
+        "playedMatches": 8,
         "goals": 4,
         "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 131260,
+          "name": "Evanilson",
+          "firstName": "",
+          "lastName": "Evanilson",
+          "dateOfBirth": "1999-10-06",
+          "nationality": "Brazil",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:43Z"
+        },
+        "team": {
+          "id": 1044,
+          "name": "AFC Bournemouth",
+          "shortName": "Bournemouth",
+          "tla": "BOU",
+          "crest": "https://crests.football-data.org/bournemouth.png",
+          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+          "website": "http://www.afcb.co.uk",
+          "founded": 1890,
+          "clubColors": "Red / Black",
+          "venue": "Vitality Stadium",
+          "lastUpdated": "2024-08-29T08:54:34Z"
+        },
+        "playedMatches": 9,
+        "goals": 4,
+        "assists": 4,
         "penalties": null
       },
       {
@@ -642,37 +673,6 @@
         "playedMatches": 9,
         "goals": 3,
         "assists": 2,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 97535,
-          "name": "Brian Brobbey",
-          "firstName": "Brian",
-          "lastName": "Brobbey",
-          "dateOfBirth": "2002-02-01",
-          "nationality": "Netherlands",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": 17,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 71,
-          "name": "Sunderland AFC",
-          "shortName": "Sunderland",
-          "tla": "SUN",
-          "crest": "https://crests.football-data.org/71.png",
-          "address": "The Sunderland Stadium of Light Sunderland SR5 1SU",
-          "website": "http://www.safc.com",
-          "founded": 1879,
-          "clubColors": "Red / White",
-          "venue": "Stadium of Light",
-          "lastUpdated": "2022-02-19T09:12:07Z"
-        },
-        "playedMatches": 7,
-        "goals": 3,
-        "assists": null,
         "penalties": null
       }
     ]
