@@ -1,20 +1,20 @@
 {
-  "created_at": "2026-10-31T07:50:53.789737+00:00",
-  "elapsed": 0.514832,
+  "created_at": "2026-10-31T14:09:40.287480+00:00",
+  "elapsed": 0.59513,
   "encoding": "UTF-8",
-  "expires": "2026-10-31T08:50:53.789706+00:00",
+  "expires": "2026-10-31T15:09:40.287447+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
-    "Content-Language": "en-US",
+    "Content-Language": "de-DE",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 31 Oct 2026 07:50:53 GMT",
+    "Date": "Sat, 31 Oct 2026 14:09:40 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "j4f.zy77",
+    "X-Authenticated-Client": "Moataz",
     "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
@@ -124,6 +124,25 @@
           {
             "position": 4,
             "team": {
+              "id": 61,
+              "name": "Chelsea FC",
+              "shortName": "Chelsea",
+              "tla": "CHE",
+              "crest": "https://crests.football-data.org/61.png"
+            },
+            "playedGames": 9,
+            "form": null,
+            "won": 5,
+            "draw": 1,
+            "lost": 3,
+            "points": 16,
+            "goalsFor": 19,
+            "goalsAgainst": 15,
+            "goalDifference": 4
+          },
+          {
+            "position": 5,
+            "team": {
               "id": 64,
               "name": "Liverpool FC",
               "shortName": "Liverpool",
@@ -139,25 +158,6 @@
             "goalsFor": 11,
             "goalsAgainst": 8,
             "goalDifference": 3
-          },
-          {
-            "position": 5,
-            "team": {
-              "id": 61,
-              "name": "Chelsea FC",
-              "shortName": "Chelsea",
-              "tla": "CHE",
-              "crest": "https://crests.football-data.org/61.png"
-            },
-            "playedGames": 8,
-            "form": null,
-            "won": 4,
-            "draw": 1,
-            "lost": 3,
-            "points": 13,
-            "goalsFor": 17,
-            "goalsAgainst": 15,
-            "goalDifference": 2
           },
           {
             "position": 6,
@@ -358,15 +358,15 @@
               "tla": "MUN",
               "crest": "https://crests.football-data.org/66.png"
             },
-            "playedGames": 8,
+            "playedGames": 9,
             "form": null,
             "won": 1,
             "draw": 4,
-            "lost": 3,
+            "lost": 4,
             "points": 7,
             "goalsFor": 10,
-            "goalsAgainst": 13,
-            "goalDifference": -3
+            "goalsAgainst": 15,
+            "goalDifference": -5
           },
           {
             "position": 17,

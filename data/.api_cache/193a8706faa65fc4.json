@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-31T07:50:53.908127+00:00",
-  "elapsed": 0.114152,
+  "created_at": "2026-10-31T14:09:40.413716+00:00",
+  "elapsed": 0.119431,
   "encoding": "UTF-8",
-  "expires": "2026-10-31T08:50:53.908101+00:00",
+  "expires": "2026-10-31T15:09:40.413686+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,13 +10,13 @@
     "Content-Encoding": "gzip",
     "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 31 Oct 2026 07:50:53 GMT",
+    "Date": "Sat, 31 Oct 2026 14:09:40 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Matias",
+    "X-Authenticated-Client": "Niran",
     "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "46",
+    "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "8"
   },
@@ -81,7 +81,7 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 9,
         "assists": null,
         "penalties": null
@@ -143,7 +143,7 @@
           "venue": "Vitality Stadium",
           "lastUpdated": "2024-08-29T08:54:34Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 5,
         "assists": null,
         "penalties": null
@@ -205,8 +205,8 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 8,
-        "goals": 4,
+        "playedMatches": 9,
+        "goals": 5,
         "assists": 1,
         "penalties": null
       },
@@ -236,7 +236,7 @@
           "venue": "Etihad Stadium",
           "lastUpdated": "2022-02-10T19:48:37Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 4,
         "assists": 2,
         "penalties": null
@@ -267,7 +267,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 4,
         "assists": null,
         "penalties": null
@@ -391,10 +391,41 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 3,
+        "playedMatches": 4,
         "goals": 3,
         "assists": null,
         "penalties": null
+      },
+      {
+        "player": {
+          "id": 144892,
+          "name": "Cole Palmer",
+          "firstName": "Cole",
+          "lastName": "Palmer",
+          "dateOfBirth": "2002-05-06",
+          "nationality": "England",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:42Z"
+        },
+        "team": {
+          "id": 61,
+          "name": "Chelsea FC",
+          "shortName": "Chelsea",
+          "tla": "CHE",
+          "crest": "https://crests.football-data.org/61.png",
+          "address": "Fulham Road London SW6 1HS",
+          "website": "http://www.chelseafc.com",
+          "founded": 1905,
+          "clubColors": "Royal Blue / White",
+          "venue": "Stamford Bridge",
+          "lastUpdated": "2022-02-10T19:24:40Z"
+        },
+        "playedMatches": 9,
+        "goals": 3,
+        "assists": 3,
+        "penalties": 1
       },
       {
         "player": {
@@ -422,7 +453,7 @@
           "venue": "Stamford Bridge",
           "lastUpdated": "2022-02-10T19:24:40Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 1,
         "penalties": null
@@ -453,7 +484,7 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 4,
         "penalties": 1
@@ -484,7 +515,7 @@
           "venue": "Griffin Park",
           "lastUpdated": "2022-04-03T16:24:00Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -515,7 +546,7 @@
           "venue": "Elland Road",
           "lastUpdated": "2022-02-10T19:27:14Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 1,
         "penalties": null
@@ -546,7 +577,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 1,
         "penalties": 1
@@ -577,7 +608,7 @@
           "venue": "Kingston Communications Stadium",
           "lastUpdated": "2022-02-22T14:19:00Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 2,
         "penalties": null
@@ -608,7 +639,7 @@
           "venue": "The American Express Community Stadium",
           "lastUpdated": "2024-07-29T17:18:23Z"
         },
-        "playedMatches": 8,
+        "playedMatches": 9,
         "goals": 3,
         "assists": 2,
         "penalties": null
@@ -639,40 +670,9 @@
           "venue": "Stadium of Light",
           "lastUpdated": "2022-02-19T09:12:07Z"
         },
-        "playedMatches": 6,
+        "playedMatches": 7,
         "goals": 3,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 131260,
-          "name": "Evanilson",
-          "firstName": "",
-          "lastName": "Evanilson",
-          "dateOfBirth": "1999-10-06",
-          "nationality": "Brazil",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:43Z"
-        },
-        "team": {
-          "id": 1044,
-          "name": "AFC Bournemouth",
-          "shortName": "Bournemouth",
-          "tla": "BOU",
-          "crest": "https://crests.football-data.org/bournemouth.png",
-          "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
-          "website": "http://www.afcb.co.uk",
-          "founded": 1890,
-          "clubColors": "Red / Black",
-          "venue": "Vitality Stadium",
-          "lastUpdated": "2024-08-29T08:54:34Z"
-        },
-        "playedMatches": 8,
-        "goals": 3,
-        "assists": 4,
         "penalties": null
       }
     ]
