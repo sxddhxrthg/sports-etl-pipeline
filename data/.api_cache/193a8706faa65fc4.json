@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-02T19:55:20.259975+00:00",
-  "elapsed": 1.050318,
+  "created_at": "2026-11-03T01:56:37.295419+00:00",
+  "elapsed": 0.68155,
   "encoding": "UTF-8",
-  "expires": "2026-11-02T20:55:20.259944+00:00",
+  "expires": "2026-11-03T02:56:37.295390+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Mon, 02 Nov 2026 19:55:20 GMT",
+    "Date": "Tue, 03 Nov 2026 01:56:37 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -242,6 +242,37 @@
       },
       {
         "player": {
+          "id": 171995,
+          "name": "Thierno Barry",
+          "firstName": "Thierno",
+          "lastName": "Barry",
+          "dateOfBirth": "2000-01-12",
+          "nationality": "France",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:44Z"
+        },
+        "team": {
+          "id": 62,
+          "name": "Everton FC",
+          "shortName": "Everton",
+          "tla": "EVE",
+          "crest": "https://crests.football-data.org/62.png",
+          "address": "Goodison Park Liverpool L4 4EL",
+          "website": "http://www.evertonfc.com",
+          "founded": 1878,
+          "clubColors": "Blue / White",
+          "venue": "Goodison Park",
+          "lastUpdated": "2022-02-10T19:47:42Z"
+        },
+        "playedMatches": 9,
+        "goals": 4,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 133242,
           "name": "Rayan Cherki",
           "firstName": "Rayan",
@@ -394,37 +425,6 @@
         "goals": 3,
         "assists": null,
         "penalties": 1
-      },
-      {
-        "player": {
-          "id": 171995,
-          "name": "Thierno Barry",
-          "firstName": "Thierno",
-          "lastName": "Barry",
-          "dateOfBirth": "2000-01-12",
-          "nationality": "France",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:44Z"
-        },
-        "team": {
-          "id": 62,
-          "name": "Everton FC",
-          "shortName": "Everton",
-          "tla": "EVE",
-          "crest": "https://crests.football-data.org/62.png",
-          "address": "Goodison Park Liverpool L4 4EL",
-          "website": "http://www.evertonfc.com",
-          "founded": 1878,
-          "clubColors": "Blue / White",
-          "venue": "Goodison Park",
-          "lastUpdated": "2022-02-10T19:47:42Z"
-        },
-        "playedMatches": 9,
-        "goals": 3,
-        "assists": null,
-        "penalties": null
       },
       {
         "player": {
