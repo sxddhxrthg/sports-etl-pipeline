@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-07T16:00:36.673776+00:00",
-  "elapsed": 0.562789,
+  "created_at": "2026-11-07T21:17:01.623108+00:00",
+  "elapsed": 0.362403,
   "encoding": "UTF-8",
-  "expires": "2026-11-07T17:00:36.673740+00:00",
+  "expires": "2026-11-07T22:17:01.623077+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,13 +10,14 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 07 Nov 2026 16:00:36 GMT",
+    "Date": "Sat, 07 Nov 2026 21:17:01 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Siddharth",
-    "X-Cache-Status": "BYPASS",
+    "X-Authenticated-Client": "Jasmin",
+    "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
+    "x-request_counter-reset": "59",
     "x-requests-available-minute": "9"
   },
   "reason": "",
@@ -74,13 +75,13 @@
             },
             "playedGames": 10,
             "form": null,
-            "won": 8,
-            "draw": 1,
+            "won": 9,
+            "draw": 0,
             "lost": 1,
-            "points": 25,
-            "goalsFor": 14,
+            "points": 27,
+            "goalsFor": 15,
             "goalsAgainst": 5,
-            "goalDifference": 9
+            "goalDifference": 10
           },
           {
             "position": 2,
@@ -91,15 +92,15 @@
               "tla": "MCI",
               "crest": "https://crests.football-data.org/65.png"
             },
-            "playedGames": 9,
+            "playedGames": 10,
             "form": null,
             "won": 7,
             "draw": 0,
-            "lost": 2,
+            "lost": 3,
             "points": 21,
-            "goalsFor": 20,
-            "goalsAgainst": 10,
-            "goalDifference": 10
+            "goalsFor": 21,
+            "goalsAgainst": 13,
+            "goalDifference": 8
           },
           {
             "position": 3,
@@ -237,25 +238,6 @@
           {
             "position": 10,
             "team": {
-              "id": 322,
-              "name": "Hull City AFC",
-              "shortName": "Hull City",
-              "tla": "HUL",
-              "crest": "https://crests.football-data.org/322.png"
-            },
-            "playedGames": 10,
-            "form": null,
-            "won": 2,
-            "draw": 6,
-            "lost": 2,
-            "points": 12,
-            "goalsFor": 11,
-            "goalsAgainst": 10,
-            "goalDifference": 1
-          },
-          {
-            "position": 11,
-            "team": {
               "id": 73,
               "name": "Tottenham Hotspur FC",
               "shortName": "Tottenham",
@@ -273,7 +255,7 @@
             "goalDifference": -1
           },
           {
-            "position": 12,
+            "position": 11,
             "team": {
               "id": 67,
               "name": "Newcastle United FC",
@@ -287,12 +269,12 @@
             "draw": 3,
             "lost": 4,
             "points": 12,
-            "goalsFor": 12,
-            "goalsAgainst": 15,
+            "goalsFor": 13,
+            "goalsAgainst": 16,
             "goalDifference": -3
           },
           {
-            "position": 13,
+            "position": 12,
             "team": {
               "id": 58,
               "name": "Aston Villa FC",
@@ -309,6 +291,25 @@
             "goalsFor": 10,
             "goalsAgainst": 13,
             "goalDifference": -3
+          },
+          {
+            "position": 13,
+            "team": {
+              "id": 322,
+              "name": "Hull City AFC",
+              "shortName": "Hull City",
+              "tla": "HUL",
+              "crest": "https://crests.football-data.org/322.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 2,
+            "draw": 5,
+            "lost": 3,
+            "points": 11,
+            "goalsFor": 11,
+            "goalsAgainst": 11,
+            "goalDifference": 0
           },
           {
             "position": 14,
@@ -344,12 +345,31 @@
             "draw": 4,
             "lost": 4,
             "points": 10,
-            "goalsFor": 9,
-            "goalsAgainst": 11,
+            "goalsFor": 10,
+            "goalsAgainst": 12,
             "goalDifference": -2
           },
           {
             "position": 16,
+            "team": {
+              "id": 351,
+              "name": "Nottingham Forest FC",
+              "shortName": "Nottingham",
+              "tla": "NOT",
+              "crest": "https://crests.football-data.org/351.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 2,
+            "draw": 3,
+            "lost": 5,
+            "points": 9,
+            "goalsFor": 9,
+            "goalsAgainst": 13,
+            "goalDifference": -4
+          },
+          {
+            "position": 17,
             "team": {
               "id": 1076,
               "name": "Coventry City FC",
@@ -368,7 +388,7 @@
             "goalDifference": -9
           },
           {
-            "position": 17,
+            "position": 18,
             "team": {
               "id": 66,
               "name": "Manchester United FC",
@@ -387,7 +407,7 @@
             "goalDifference": -5
           },
           {
-            "position": 18,
+            "position": 19,
             "team": {
               "id": 354,
               "name": "Crystal Palace FC",
@@ -404,25 +424,6 @@
             "goalsFor": 9,
             "goalsAgainst": 21,
             "goalDifference": -12
-          },
-          {
-            "position": 19,
-            "team": {
-              "id": 351,
-              "name": "Nottingham Forest FC",
-              "shortName": "Nottingham",
-              "tla": "NOT",
-              "crest": "https://crests.football-data.org/351.png"
-            },
-            "playedGames": 9,
-            "form": null,
-            "won": 1,
-            "draw": 3,
-            "lost": 5,
-            "points": 6,
-            "goalsFor": 6,
-            "goalsAgainst": 12,
-            "goalDifference": -6
           },
           {
             "position": 20,
