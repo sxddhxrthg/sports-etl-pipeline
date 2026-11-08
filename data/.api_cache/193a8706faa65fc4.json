@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-08T16:28:35.950566+00:00",
-  "elapsed": 0.930668,
+  "created_at": "2026-11-08T21:32:18.958457+00:00",
+  "elapsed": 1.37032,
   "encoding": "UTF-8",
-  "expires": "2026-11-08T17:28:35.950542+00:00",
+  "expires": "2026-11-08T22:32:18.958424+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 08 Nov 2026 16:28:35 GMT",
+    "Date": "Sun, 08 Nov 2026 21:32:18 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -150,6 +150,37 @@
       },
       {
         "player": {
+          "id": 152515,
+          "name": "Nicolas Jackson",
+          "firstName": "Nicolas",
+          "lastName": "Jackson",
+          "dateOfBirth": "2001-06-20",
+          "nationality": "Senegal",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 58,
+          "name": "Aston Villa FC",
+          "shortName": "Aston Villa",
+          "tla": "AVL",
+          "crest": "https://crests.football-data.org/58.png",
+          "address": "Villa Park Birmingham B6 6HE",
+          "website": "http://www.avfc.co.uk",
+          "founded": 1872,
+          "clubColors": "Claret / Sky Blue",
+          "venue": "Villa Park",
+          "lastUpdated": "2022-04-03T16:22:14Z"
+        },
+        "playedMatches": 9,
+        "goals": 6,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 6396,
           "name": "Marcus Tavernier",
           "firstName": "Marcus",
@@ -274,37 +305,6 @@
       },
       {
         "player": {
-          "id": 152515,
-          "name": "Nicolas Jackson",
-          "firstName": "Nicolas",
-          "lastName": "Jackson",
-          "dateOfBirth": "2001-06-20",
-          "nationality": "Senegal",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 58,
-          "name": "Aston Villa FC",
-          "shortName": "Aston Villa",
-          "tla": "AVL",
-          "crest": "https://crests.football-data.org/58.png",
-          "address": "Villa Park Birmingham B6 6HE",
-          "website": "http://www.avfc.co.uk",
-          "founded": 1872,
-          "clubColors": "Claret / Sky Blue",
-          "venue": "Villa Park",
-          "lastUpdated": "2022-04-03T16:22:14Z"
-        },
-        "playedMatches": 9,
-        "goals": 5,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 131260,
           "name": "Evanilson",
           "firstName": "",
@@ -363,6 +363,37 @@
         "playedMatches": 10,
         "goals": 4,
         "assists": 4,
+        "penalties": 2
+      },
+      {
+        "player": {
+          "id": 3257,
+          "name": "Bruno Fernandes",
+          "firstName": "",
+          "lastName": "Bruno Fernandes",
+          "dateOfBirth": "1994-09-08",
+          "nationality": "Portugal",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 66,
+          "name": "Manchester United FC",
+          "shortName": "Man United",
+          "tla": "MUN",
+          "crest": "https://crests.football-data.org/66.png",
+          "address": "Sir Matt Busby Way Manchester M16 0RA",
+          "website": "http://www.manutd.com",
+          "founded": 1878,
+          "clubColors": "Red / White",
+          "venue": "Old Trafford",
+          "lastUpdated": "2022-02-10T19:27:46Z"
+        },
+        "playedMatches": 10,
+        "goals": 4,
+        "assists": 2,
         "penalties": 2
       },
       {
@@ -642,37 +673,6 @@
         "playedMatches": 10,
         "goals": 3,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 7839,
-          "name": "Dominic Calvert-Lewin",
-          "firstName": "Dominic",
-          "lastName": "Calvert-Lewin",
-          "dateOfBirth": "1997-03-16",
-          "nationality": "England",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:44Z"
-        },
-        "team": {
-          "id": 341,
-          "name": "Leeds United FC",
-          "shortName": "Leeds United",
-          "tla": "LEE",
-          "crest": "https://crests.football-data.org/341.png",
-          "address": "Elland Road Leeds LS11 0ES",
-          "website": "http://www.leedsunited.com",
-          "founded": 1904,
-          "clubColors": "White / Blue",
-          "venue": "Elland Road",
-          "lastUpdated": "2022-02-10T19:27:14Z"
-        },
-        "playedMatches": 10,
-        "goals": 3,
-        "assists": 1,
         "penalties": null
       }
     ]
