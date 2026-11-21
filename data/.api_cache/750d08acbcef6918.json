@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-21T01:00:14.326146+00:00",
-  "elapsed": 0.547645,
+  "created_at": "2026-11-21T09:01:42.833643+00:00",
+  "elapsed": 0.442123,
   "encoding": "UTF-8",
-  "expires": "2026-11-21T02:00:14.326112+00:00",
+  "expires": "2026-11-21T10:01:42.833608+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,13 +10,13 @@
     "Content-Encoding": "gzip",
     "Content-Language": "und",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sat, 21 Nov 2026 01:00:14 GMT",
+    "Date": "Sat, 21 Nov 2026 09:01:42 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "Oghenemaiga",
+    "X-Authenticated-Client": "Juan Pontigo",
     "X-Cache-Status": "HIT",
-    "X-RequestCounter-Reset": "60",
+    "X-RequestCounter-Reset": "53",
     "x-request_counter-reset": "59",
     "x-requests-available-minute": "9"
   },
