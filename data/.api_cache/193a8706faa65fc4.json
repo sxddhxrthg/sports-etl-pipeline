@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-22T13:52:50.895159+00:00",
-  "elapsed": 1.736511,
+  "created_at": "2026-11-22T20:31:45.158614+00:00",
+  "elapsed": 1.076174,
   "encoding": "UTF-8",
-  "expires": "2026-11-22T14:52:50.895131+00:00",
+  "expires": "2026-11-22T21:31:45.158587+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,7 +10,7 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Sun, 22 Nov 2026 13:52:50 GMT",
+    "Date": "Sun, 22 Nov 2026 20:31:45 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
@@ -112,7 +112,7 @@
           "venue": "Anfield",
           "lastUpdated": "2022-02-10T19:30:22Z"
         },
-        "playedMatches": 9,
+        "playedMatches": 10,
         "goals": 7,
         "assists": null,
         "penalties": null
@@ -422,7 +422,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 10,
+        "playedMatches": 11,
         "goals": 4,
         "assists": 2,
         "penalties": 2
@@ -453,7 +453,7 @@
           "venue": "Old Trafford",
           "lastUpdated": "2022-02-10T19:27:46Z"
         },
-        "playedMatches": 10,
+        "playedMatches": 11,
         "goals": 4,
         "assists": null,
         "penalties": null
@@ -488,6 +488,37 @@
         "goals": 4,
         "assists": null,
         "penalties": null
+      },
+      {
+        "player": {
+          "id": 4359,
+          "name": "Oliver McBurnie",
+          "firstName": "Oliver",
+          "lastName": "McBurnie",
+          "dateOfBirth": "1996-06-04",
+          "nationality": "Scotland",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-07-15T09:25:44Z"
+        },
+        "team": {
+          "id": 322,
+          "name": "Hull City AFC",
+          "shortName": "Hull City",
+          "tla": "HUL",
+          "crest": "https://crests.football-data.org/322.png",
+          "address": "Walton Street Hull HU3 6HU",
+          "website": "http://www.hullcitytigers.com",
+          "founded": 1904,
+          "clubColors": "Orange / Black",
+          "venue": "Kingston Communications Stadium",
+          "lastUpdated": "2022-02-22T14:19:00Z"
+        },
+        "playedMatches": 11,
+        "goals": 4,
+        "assists": 2,
+        "penalties": 1
       },
       {
         "player": {
@@ -643,37 +674,6 @@
         "goals": 3,
         "assists": null,
         "penalties": null
-      },
-      {
-        "player": {
-          "id": 144892,
-          "name": "Cole Palmer",
-          "firstName": "Cole",
-          "lastName": "Palmer",
-          "dateOfBirth": "2002-05-06",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-07-15T09:25:42Z"
-        },
-        "team": {
-          "id": 61,
-          "name": "Chelsea FC",
-          "shortName": "Chelsea",
-          "tla": "CHE",
-          "crest": "https://crests.football-data.org/61.png",
-          "address": "Fulham Road London SW6 1HS",
-          "website": "http://www.chelseafc.com",
-          "founded": 1905,
-          "clubColors": "Royal Blue / White",
-          "venue": "Stamford Bridge",
-          "lastUpdated": "2022-02-10T19:24:40Z"
-        },
-        "playedMatches": 11,
-        "goals": 3,
-        "assists": 3,
-        "penalties": 1
       }
     ]
   }
