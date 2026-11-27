@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-27T13:22:50.699770+00:00",
-  "elapsed": 0.555808,
+  "created_at": "2026-11-27T22:26:30.926531+00:00",
+  "elapsed": 0.498825,
   "encoding": "UTF-8",
-  "expires": "2026-11-27T14:22:50.699739+00:00",
+  "expires": "2026-11-27T23:26:30.926470+00:00",
   "headers": {
     "Access-Control-Allow-Methods": "GET",
     "Access-Control-Allow-Origin": "http://localhost",
@@ -10,11 +10,11 @@
     "Content-Encoding": "gzip",
     "Content-Language": "en-US",
     "Content-Type": "application/json;charset=UTF-8",
-    "Date": "Fri, 27 Nov 2026 13:22:50 GMT",
+    "Date": "Fri, 27 Nov 2026 22:26:30 GMT",
     "Server": "nginx",
     "Transfer-Encoding": "chunked",
     "X-API-Version": "v4",
-    "X-Authenticated-Client": "ben daniel",
+    "X-Authenticated-Client": "Marlon Rosa",
     "X-Cache-Status": "HIT",
     "X-RequestCounter-Reset": "60",
     "x-request_counter-reset": "59",
@@ -206,15 +206,15 @@
               "tla": "CHE",
               "crest": "https://crests.football-data.org/61.png"
             },
-            "playedGames": 11,
+            "playedGames": 12,
             "form": null,
             "won": 5,
             "draw": 1,
-            "lost": 5,
+            "lost": 6,
             "points": 16,
-            "goalsFor": 20,
-            "goalsAgainst": 20,
-            "goalDifference": 0
+            "goalsFor": 22,
+            "goalsAgainst": 23,
+            "goalDifference": -1
           },
           {
             "position": 9,
@@ -314,6 +314,25 @@
           {
             "position": 14,
             "team": {
+              "id": 351,
+              "name": "Nottingham Forest FC",
+              "shortName": "Nottingham",
+              "tla": "NOT",
+              "crest": "https://crests.football-data.org/351.png"
+            },
+            "playedGames": 12,
+            "form": null,
+            "won": 3,
+            "draw": 3,
+            "lost": 6,
+            "points": 12,
+            "goalsFor": 12,
+            "goalsAgainst": 17,
+            "goalDifference": -5
+          },
+          {
+            "position": 15,
+            "team": {
               "id": 1076,
               "name": "Coventry City FC",
               "shortName": "Coventry City",
@@ -331,7 +350,7 @@
             "goalDifference": -8
           },
           {
-            "position": 15,
+            "position": 16,
             "team": {
               "id": 63,
               "name": "Fulham FC",
@@ -350,7 +369,7 @@
             "goalDifference": -2
           },
           {
-            "position": 16,
+            "position": 17,
             "team": {
               "id": 349,
               "name": "Ipswich Town FC",
@@ -367,25 +386,6 @@
             "goalsFor": 15,
             "goalsAgainst": 22,
             "goalDifference": -7
-          },
-          {
-            "position": 17,
-            "team": {
-              "id": 351,
-              "name": "Nottingham Forest FC",
-              "shortName": "Nottingham",
-              "tla": "NOT",
-              "crest": "https://crests.football-data.org/351.png"
-            },
-            "playedGames": 11,
-            "form": null,
-            "won": 2,
-            "draw": 3,
-            "lost": 6,
-            "points": 9,
-            "goalsFor": 9,
-            "goalsAgainst": 15,
-            "goalDifference": -6
           },
           {
             "position": 18,
